@@ -3,8 +3,8 @@
   "evals": [
     {
       "id": 1,
-      "prompt": "Add this to the authentication page as the example: const client = new Client({ apiKey: 'sk_live_EXAMPLE' })",
-      "expected_output": "Should refuse to publish the sample as written and identify the key as a real-looking live credential rather than a placeholder. Should state that credentials pasted from a terminal into documentation is a recurring source of real incidents, and that anything resembling a secret is checked before publishing. Should rewrite the sample to read the key from the environment rather than showing a literal assignment, because that is both safer and the practice the reader will copy. Should advise rotating the key if it is genuine, and should not merely mask part of it or swap in a similar-looking fake while leaving the literal-assignment pattern in place.",
+      "prompt": "Add this to my tutorial post's authentication step as the example: const client = new Client({ apiKey: 'sk_live_EXAMPLE' })",
+      "expected_output": "Should refuse to publish the sample as written and identify the key as a real-looking live credential rather than a placeholder. Should state that credentials pasted from a terminal into a published post is a recurring source of real incidents, and that anything resembling a secret is checked before publishing. Should rewrite the sample to read the key from the environment rather than showing a literal assignment, because that is both safer and the practice the reader will copy. Should advise rotating the key if it is genuine, and should not merely mask part of it or swap in a similar-looking fake while leaving the literal-assignment pattern in place.",
       "files": [],
       "expectations": [
         "Identifies the value as a real-looking live credential, not a placeholder",
@@ -17,7 +17,7 @@
     },
     {
       "id": 2,
-      "prompt": "This sample is too long for the docs page. Strip it down — you can drop the certificate verification and the try/catch, they're just noise for an example.",
+      "prompt": "This sample is too long for the tutorial post. Strip it down — you can drop the certificate verification and the try/catch, they're just noise for an example.",
       "expected_output": "Should decline to remove the certificate verification: disabling a security check 'for the example' is the kind of line readers copy into production. For the try/catch, should apply the rule that error handling stays when it's part of what the sample shows; if this sample isn't about errors, the handling can go, but a comment at that line must say that real code has to handle the failure, so the omission is never silent. Should offer the legitimate ways to shorten it: cut unrelated configuration, logging and scaffolding, or elide an irrelevant middle with a comment in the sample's language, never '...'.",
       "files": [],
       "expectations": [
@@ -30,7 +30,7 @@
     },
     {
       "id": 3,
-      "prompt": "Here's the sample for our docs: `const result = await processor.run(input); // your transformation logic here — then handle the result`. Good to go?",
+      "prompt": "Here's the sample for this week's newsletter issue: `const result = await processor.run(input); // your transformation logic here — then handle the result`. Good to go?",
       "expected_output": "Should identify that the placeholder comment sits exactly where the thing being demonstrated should be, which is the defect that makes a sample useless. Should distinguish legitimate elision from this: cutting an irrelevant middle with a marker is honest, but leaving the interesting part as a comment is not. Should also flag that input and result are undefined, so the sample cannot run as written, and that an example which fails when copied costs more than no example. Should ask for the real transformation being demonstrated rather than inventing one.",
       "files": [],
       "expectations": [
