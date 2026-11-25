@@ -1,13 +1,12 @@
 {
   "name": "cw",
   "displayName": "Content Writing Skills",
-  "description": "Content writing skills for any blog or newsletter on any subject: plan topics, research sources, write posts, newsletter issues and social posts, pitch and collaborate, edit and review, cross-post, refresh old pieces and read the analytics. Includes write.",
-  "dependencies": ["write"],
+  "description": "Content writing skills for any blog or newsletter on any subject: plan topics, research sources, write posts, newsletter issues and social posts, pitch and collaborate, edit and review, cross-post, refresh old pieces and read the analytics. Includes plain language, sourced claims, code samples that run and a check for machine-written prose.",
   "author": {
     "name": "Timonwa"
   },
-  "homepage": "https://github.com/Timonwa/writing-skills",
-  "repository": "https://github.com/Timonwa/writing-skills",
+  "homepage": "https://github.com/Timonwa/content-writing-skills",
+  "repository": "https://github.com/Timonwa/content-writing-skills",
   "license": "MIT",
   "keywords": [
     "content-writing",
@@ -18,6 +17,8 @@
     "editorial-calendar",
     "guest-posts",
     "content-strategy",
-    "editing"
+    "editing",
+    "plain-language",
+    "ai-writing"
   ]
 }
