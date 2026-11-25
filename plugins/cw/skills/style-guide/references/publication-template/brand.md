@@ -35,7 +35,7 @@ One row per colour, with its role. Four or five colours usually cover a publicat
 
 ## Cover template
 
-What every cover and share card has in common, so a reader recognises the publication in a feed. Sizes follow `cw:cover-images`.
+What every cover and share card has in common, so a reader recognises the publication in a feed. Sizes follow `cover-images`.
 
 | Field                 | Your answer                                                      |
 | --------------------- | ---------------------------------------------------------------- |

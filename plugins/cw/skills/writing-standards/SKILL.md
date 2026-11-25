@@ -19,9 +19,9 @@ Before applying this skill, find the guide the writing answers to and read it �
 Voice, person, tone, terminology, formatting choices and who the reader is come from that guide, never from this skill.
 
 - Where the guide settles something this skill also covers, the guide wins.
-- Where there's no guide, ask who the reader is and what the piece is for, and offer to build a guide with `cw:style-guide`.
+- Where there's no guide, ask who the reader is and what the piece is for, and offer to build a guide with `style-guide`.
 - When a guide changes: in a codebase, save the file where it was found; in a chat app, give the user the updated file to replace in the project.
-- **Also apply the publication's writing guide and the content-writing skills (`cw`).**
+- **Also apply the publication's writing guide and the content-writing skills.**
 
 ## Ask first
 
@@ -32,7 +32,7 @@ Read the answers from the request, the guide, the publication's `profile.md` and
 3. **Who is the reader, and what do they already know?** Short answer.
 4. **What does the reader leave with?** One sentence: what they can do, understand or decide afterwards.
 5. **What's left out, and where does it live?** Short answer: each excluded topic and the page or piece that covers it, or none.
-6. **Which guide does it answer to?** The publication's `writing-guide.md` (path) · none yet, so build one with `cw:style-guide`.
+6. **Which guide does it answer to?** The publication's `writing-guide.md` (path) · none yet, so build one with `style-guide`.
 
 ## Craft and voice
 
@@ -86,10 +86,10 @@ Read the answers from the request, the guide, the publication's `profile.md` and
 
 ## Boundaries
 
-- **Documentation** — the four documentation types, the documentation voice, procedures, accessible docs pages → `tw:docs-standards` in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).
-- **The guide this skill defers to** — a publication's writing guide → `cw:style-guide`.
-- **Getting facts out of an expert or a source** → `cw:interviews`.
-- **Code in a piece** → `cw:code-samples`. **Screenshots, photos, diagrams and alt text** → `cw:images-and-diagrams`.
-- **Tightening a finished draft** → `cw:editing-standards`; **the machine-written sweep** → `/cw:ai-check`.
-- **Worked examples** — an article: the content-writing skills (`cw`); before-and-after edits: `cw:editing-standards`.
+- **Documentation** — the four documentation types, the documentation voice, procedures, accessible docs pages → `docs-standards` in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).
+- **The guide this skill defers to** — a publication's writing guide → `style-guide`.
+- **Getting facts out of an expert or a source** → `interviews`.
+- **Code in a piece** → `code-samples`. **Screenshots, photos, diagrams and alt text** → `images-and-diagrams`.
+- **Tightening a finished draft** → `editing-standards`; **the machine-written sweep** → `/ai-check`.
+- **Worked examples** — an article: the content-writing skills; before-and-after edits: `editing-standards`.
 - **Marketing and conversion copy** — landing pages, ads, sales sequences — is a different craft with a different goal, and out of scope.

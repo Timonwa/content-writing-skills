@@ -4,7 +4,7 @@
     {
       "id": 1,
       "prompt": "Set up my new food blog's publication files. I have an old 'brand voice' PDF from a course, about twenty published posts, and the covers from my last ten posts, but no brand guide.",
-      "expected_output": "Should start by finding what exists: the publication's folder (the folder AGENTS.md or the user's personal agent instructions name, else the project's publications/; in a chat app, the project's files; else ask), the brand-voice PDF placed in its sources/ folder, and the posts. Should convert the source rather than copy it, transcribing exact wording where it fixes wording and leaving the rest blank; derive from three or four typical posts and ask which posts aren't typical; then interview the owner for the profile. For the look, should ask for the logo files and any brand guide, read colours and fonts off the past covers into brand.md, leave each one blank until the owner confirms it, and put three or four sample covers and the logo in examples/ with a line on why each is there. Should ask only what the files don't answer — with choices where they're known — including the profile's Defaults: what a new topic becomes, where each format goes, full copy or opening excerpt per cross-post platform, and the cover. Should write the files to the publication's folder from the template — profile.md with its Defaults, writing-guide.md, brand.md, sources/, examples/, calendar.md with Coming up, Ideas and Published, series/, reports/ and topics/, where each topic gets a <yyyy-mm>-<slug> folder with brief.md and fixed format file names — never inside the installed plugin, and record what each was built from and the date.",
+      "expected_output": "Should start by finding what exists: the publication's folder (the folder AGENTS.md or the user's personal agent instructions name, else the project's publications/; in a chat app, the project's files; else ask), the brand-voice PDF placed in its sources/ folder, and the posts. Should convert the source rather than copy it, transcribing exact wording where it fixes wording and leaving the rest blank; derive from three or four typical posts and ask which posts aren't typical; then interview the owner for the profile. For the look, should ask for the logo files and any brand guide, read colours and fonts off the past covers into brand.md, leave each one blank until the owner confirms it, and put three or four sample covers and the logo in examples/ with a line on why each is there. Should ask only what the files don't answer — with choices where they're known — including the profile's Defaults: what a new topic becomes, where each format goes, full copy or opening excerpt per cross-post platform, and the cover. Should write the files to the publication's folder from the template — profile.md with its Defaults, writing-guide.md, brand.md, sources/, examples/, calendar.md with Coming up, Ideas and Published, series/, reports/ and topics/, where each topic gets a <yyyy-mm>-<slug> folder with brief.md and fixed format file names — never inside the installed skills' folder, and record what each was built from and the date.",
       "files": [],
       "expectations": [
         "Finds existing files via AGENTS.md or the user's agent instructions, then publications/, or the project's files in a chat app, then asks",
@@ -14,7 +14,7 @@
         "Builds brand.md from the past covers, leaving colours and fonts blank until confirmed, and asks for the logo files",
         "Puts sample covers and the logo in examples/ with a line on each",
         "Asks only what the files don't settle, with choices, including the profile's Defaults for a new topic",
-        "Writes files to the publication's folder from the template (calendar.md, series/, topics/), not inside the plugin, with provenance and date"
+        "Writes files to the publication's folder from the template (calendar.md, series/, topics/), not inside the installed skills' folder, with provenance and date"
       ]
     },
     {
@@ -43,14 +43,14 @@
     },
     {
       "id": 4,
-      "prompt": "I write in a chat-app project for my newsletter 'Pocket Garden'. Its profile.md and writing-guide.md are in the project knowledge. Our sign-off changed from 'Happy digging' to 'Grow slowly' last month — update the guide.",
-      "expected_output": "Should read profile.md and writing-guide.md from the project's files rather than looking for a folder on disk. Should update the sign-off entry, date the change and say where it came from, and keep every other decision as it was. Because a chat app can't save to the project, should give the user the complete updated writing-guide.md to replace in the project knowledge, and never write anything inside the installed plugin.",
+      "prompt": "I write in a chat-app project for my newsletter 'Pocket Garden'. Its profile.md and writing-guide.md are in the project's files. Our sign-off changed from 'Happy digging' to 'Grow slowly' last month — update the guide.",
+      "expected_output": "Should read profile.md and writing-guide.md from the project's files rather than looking for a folder on disk. Should update the sign-off entry, date the change and say where it came from, and keep every other decision as it was. Because a chat app can't save to the project, should give the user the complete updated writing-guide.md to replace in the project's files, and never write anything inside the installed skills' folder.",
       "files": [],
       "expectations": [
         "Reads the guide from the project's files, not a folder path",
         "Changes only the sign-off decision, with a date and provenance",
         "Hands back the complete updated writing-guide.md to replace in the project",
-        "Does not claim to have saved the file or write inside the plugin"
+        "Does not claim to have saved the file or write inside the installed skills' folder"
       ]
     }
   ]

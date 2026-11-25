@@ -21,7 +21,7 @@ Before applying this skill, find the guide the writing answers to and read it �
 Voice, person, tone, terminology, formatting choices and who the reader is come from that guide, never from this skill.
 
 - Where the guide settles something this skill also covers, the guide wins.
-- Where there's no guide, ask who the reader is and what the piece is for, and offer to build a guide with `cw:style-guide`.
+- Where there's no guide, ask who the reader is and what the piece is for, and offer to build a guide with `style-guide`.
 - When a guide changes: in a codebase, save the file where it was found; in a chat app, give the user the updated file to replace in the project.
 - The rules below apply to code in a docs page and in a published tutorial; [Code in a tutorial](#code-in-a-tutorial) adds what a build-along needs.
 
@@ -137,8 +137,8 @@ Each is a yes or no:
 
 ## Boundaries
 
-- **The rules every piece obeys** — sentences, claims, concrete over vague, formatting, never hard-wrap → `cw:writing-standards` and its house-voice checklist.
-- **Where the sample sits in the piece** — the piece's structure → `cw:article-standards`.
-- **The companion repository itself** — its starter and final branches, pinned versions and README → `cw:demo-project`.
+- **The rules every piece obeys** — sentences, claims, concrete over vague, formatting, never hard-wrap → `writing-standards` and its house-voice checklist.
+- **Where the sample sits in the piece** — the piece's structure → `article-standards`.
+- **The companion repository itself** — its starter and final branches, pinned versions and README → `demo-project`.
 - **Writing the library or API being demonstrated** is not this skill's job. Where a sample can only be made safe or short by changing the API, that's a finding to raise, not something to paper over.
-- **Verifying behaviour you can't run** → `cw:interviews`.
+- **Verifying behaviour you can't run** → `interviews`.

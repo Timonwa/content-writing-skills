@@ -57,7 +57,7 @@ Pitch the idea, not a finished article, unless the guidelines ask for a draft, a
 
 - **A swap proposal** names both topics, both formats, both dates and what each side gets back — a bio link, a social or newsletter mention.
 - **A co-writing proposal** says why the piece is better written by both, who writes which part, where it runs first and how the bylines read.
-- **A sponsor pitch or reply** says why the product fits the writer's readers, without any claim the writer hasn't checked, then gives who reads the publication and its numbers, each with the date measured, and what a sponsor can appear in, from `media-kit.md`. Lead with subscribers and click rate: open rates are inflated by mail clients that pre-fetch images (`cw:newsletter-standards`).
+- **A sponsor pitch or reply** says why the product fits the writer's readers, without any claim the writer hasn't checked, then gives who reads the publication and its numbers, each with the date measured, and what a sponsor can appear in, from `media-kit.md`. Lead with subscribers and click rate: open rates are inflated by mail clients that pre-fetch images (`newsletter-standards`).
 - **A reply to an incoming pitch** is one of three: accept, with the angle, length and dates; ask to revise, naming the specific change; or decline in a line.
 
 ## Keep the thread moving
@@ -76,7 +76,7 @@ Common practice; the partner's own guidelines override it.
 
 Once a collaboration is agreed, start its topic folder so the writing skills can pick it up:
 
-- **Writing for them:** the outlet gets its own publication folder beside the writer's, with a `profile.md` and `writing-guide.md` built from its guidelines (`cw:style-guide`). The piece is a topic folder under it, `topics/<yyyy-mm>-<slug>/`, with a [`brief.md`](../style-guide/references/publication-template/topics/_template/brief.md) holding the agreed scope and dates.
+- **Writing for them:** the outlet gets its own publication folder beside the writer's, with a `profile.md` and `writing-guide.md` built from its guidelines (`style-guide`). The piece is a topic folder under it, `topics/<yyyy-mm>-<slug>/`, with a [`brief.md`](../style-guide/references/publication-template/topics/_template/brief.md) holding the agreed scope and dates.
 - **Every other kind** is a topic folder in the writer's own publication (for example `topics/2026-12-sourdough-starter/`), its brief's **Collaboration** set to the kind and **Partner** to the partner.
 - **A swap** has two folders in the writer's publication, one per piece, each naming the other under **Partner**. Each half is written in its author's own voice; the writer's half follows their own `writing-guide.md` and only the partner's house rules — length, format, links, the topics they take — recorded in its brief.
 - **Claim the topic** as any skill does: read `brief.md`, and if **Held by** names someone else and the status isn't `paused`, leave it and say so; otherwise set **Held by** and the date, and change only its line in that publication's `calendar.md`. In a chat app, name the topic's files `<topic folder>--<file>`.
@@ -92,6 +92,6 @@ Once a collaboration is agreed, start its topic folder so the writing skills can
 ## Boundaries
 
 - **The emails and the thread only.** Talks, podcasts and events are out of scope.
-- **Writing the piece** → `cw:article-standards`, `cw:newsletter-standards`, which also cover the sponsored label. **Editing** → `cw:editing-standards`. **Deciding what to write and when** → `cw:content-planning`.
-- **Republishing on other platforms** → `cw:cross-posting`. **Promoting the piece** → `cw:social-media-posts`. **A tutorial's code repository** → `cw:demo-project`.
-- **The publication's profile, guide and media kit** → `cw:style-guide`.
+- **Writing the piece** → `article-standards`, `newsletter-standards`, which also cover the sponsored label. **Editing** → `editing-standards`. **Deciding what to write and when** → `content-planning`.
+- **Republishing on other platforms** → `cross-posting`. **Promoting the piece** → `social-media-posts`. **A tutorial's code repository** → `demo-project`.
+- **The publication's profile, guide and media kit** → `style-guide`.

@@ -19,9 +19,9 @@ Before cross-posting, find the publication's `profile.md` and `writing-guide.md`
 Voice, person, tone, terminology, formatting choices and who the reader is come from that guide, never from this skill.
 
 - Where the guide settles something this skill also covers — which platforms the publication uses, how the "originally published" line reads, whether each platform gets a full copy or the opening excerpt — the guide wins.
-- Where there's no guide, ask who the reader is and what the piece is for, and offer to build one with `cw:style-guide`.
+- Where there's no guide, ask who the reader is and what the piece is for, and offer to build one with `style-guide`.
 
-When a guide changes: in a codebase, save the file where it was found; in a chat app, give the user the updated file to replace in the project. Never write inside the installed plugin.
+When a guide changes: in a codebase, save the file where it was found; in a chat app, give the user the updated file to replace in the project. Never write inside the installed skills' folder.
 
 ## Ask first
 
@@ -36,7 +36,7 @@ Read the answers from the topic's `brief.md` (its **Cross-posts** row above all)
 
 ## Work in the topic folder
 
-Each topic has its own folder in the publication's `topics/` (`topics/2026-12-lisbon-on-a-budget/`), made when it's briefed (`cw:content-planning`). Copies are recorded in its `copies.md`; in a chat app, `<topic folder>--copies.md`.
+Each topic has its own folder in the publication's `topics/` (`topics/2026-12-lisbon-on-a-budget/`), made when it's briefed (`content-planning`). Copies are recorded in its `copies.md`; in a chat app, `<topic folder>--copies.md`.
 
 - **Claim it before writing.** Read `brief.md`: if **Held by** names someone else and the status isn't `paused`, leave it and say so. Otherwise set **Held by** and the date, the Cross-posts row's status to `drafting`, and the topic's line in the publication's `calendar.md` to match — that line only. When stopping, set the status and clear **Held by**.
 - **Write only `copies.md`.** A full copy is `blog.md` itself, never rewritten into `copies.md`; where the brief has no Cross-posts row, say so and ask whether to add one.
@@ -52,7 +52,7 @@ Before setting anything up, decide where copies go and what kind each is:
    - the **opening excerpt** where it can't — the post's opening two or three paragraphs, about 150–300 words, ending in a "continue reading" link to the original (common practice). It's written once, in `copies.md`'s `## Opening excerpt`, and shared by every platform that takes it.
 3. **The order**, with the original first and the copies spaced out (see Timing).
 
-Posts that share the link on a social platform — a summary with a link on LinkedIn, Substack Notes or Facebook — are `cw:social-media-posts`' and live in `social.md`.
+Posts that share the link on a social platform — a summary with a link on LinkedIn, Substack Notes or Facebook — are `social-media-posts`' and live in `social.md`.
 
 ## What the search engines ask for
 
@@ -95,7 +95,7 @@ Check a copy after it's live: open its page source and confirm the canonical lin
 - **An "originally published" line at the top**, linking the original by its title or the publication's name: "Originally published on [the publication's site](…)". The line serves readers on every platform, canonical field or not.
 - **The title** is `blog.md`'s `title`, the same unless the platform's readers need a different first word; the original's title is the one search engines associate with the piece. A subtitle, description or SEO description field takes `blog.md`'s `description`, never the opening excerpt.
 - **Tags** to each platform's limit — dev.to takes up to four ([dev.to editor guide](https://dev.to/p/editor_guide)), Medium up to five topics ([Medium](https://help.medium.com/hc/en-us/articles/214741038-Tags)) — chosen from the words that platform's readers browse by.
-- **The cover image** to each platform's size — dev.to's front matter suggests 1000 × 420 ([dev.to editor guide](https://dev.to/p/editor_guide)); sizes and preview checks are `cw:cover-images`.
+- **The cover image** to each platform's size — dev.to's front matter suggests 1000 × 420 ([dev.to editor guide](https://dev.to/p/editor_guide)); sizes and preview checks are `cover-images`.
 - **AI disclosure** where the platform asks — dev.to's front matter has an `ai_disclosure_level` field ([dev.to editor guide](https://dev.to/p/editor_guide)); Medium has no field and asks for a sentence within the first two paragraphs ([Medium](https://help.medium.com/hc/en-us/articles/22576852947223-Artificial-Intelligence-AI-content-policy)) — set to match the publication's AI-use policy and the original's disclosure.
 - **A series** stays a series: link the other parts on the same platform where they're also cross-posted, otherwise on the original site.
 
@@ -103,7 +103,7 @@ Check a copy after it's live: open its page source and confirm the canonical lin
 
 - **Links become absolute** — a relative link that worked on the original site points nowhere on a copy.
 - **Links to the publication's other pieces** go to the originals, never to other copies.
-- **Images:** an import usually re-hosts them on the platform; a pasted copy may hotlink the originals. Open the copy and check every image loads, with its alt text intact (`cw:images-and-diagrams`).
+- **Images:** an import usually re-hosts them on the platform; a pasted copy may hotlink the originals. Open the copy and check every image loads, with its alt text intact (`images-and-diagrams`).
 - **Embeds** — a video, a recipe card, a chart widget, a code sandbox — often don't survive. Replace a dropped embed with a link and a still image, and where the piece has code, check code blocks keep their language label.
 - **Tracking:** tag the link back with campaign parameters if the publication measures referrals, the same way each time.
 
@@ -112,11 +112,11 @@ Check a copy after it's live: open its page source and confirm the canonical lin
 - **The writer's own piece:** cross-posting is the writer's call. A platform's terms set what licence it takes; read them once per platform.
 - **A piece written for someone else** — a guest post, a commissioned article, a client's newsletter — belongs to whatever the agreement says. Check before cross-posting it anywhere.
 - **Syndicating to a partner:** agree in writing on a non-exclusive licence, attribution with a link, `noindex` or a canonical link, full copy or opening excerpt, and what happens when the original is corrected or retired.
-- **Material inside the piece** — a photo licensed for one site, a long quote, a borrowed chart — may not be licensed for the copies. Check each before it travels (`cw:images-and-diagrams`).
+- **Material inside the piece** — a photo licensed for one site, a long quote, a borrowed chart — may not be licensed for the copies. Check each before it travels (`images-and-diagrams`).
 
 ## Keeping copies in step
 
-- **A copy doesn't update itself.** When the original is corrected or substantially updated, update every full copy the same day with the same note, and the opening excerpt only if the opening changed (`cw:content-refresh`).
+- **A copy doesn't update itself.** When the original is corrected or substantially updated, update every full copy the same day with the same note, and the opening excerpt only if the opening changed (`content-refresh`).
 - **When the original is retired, merged or redirected,** update or remove the copies and point their links at the replacement.
 - **Keep every copy in the topic's `copies.md`**: per platform, its kind, the canonical or `noindex`, tags, cover image, AI disclosure, published date, URL and the last date it was synced. Without it, a correction reaches the original and misses the copies. When a copy goes live, fill its URL and date, and move the Cross-posts row's status on.
 
@@ -132,6 +132,6 @@ Check a copy after it's live: open its page source and confirm the canonical lin
 
 ## Boundaries
 
-- **Getting the original found** → `cw:seo-aeo-geo`. **The cover image and share card** → `cw:cover-images`. **Correcting or retiring the original** → `cw:content-refresh`.
-- **Posts that share the piece rather than copy it, summary posts included** → `cw:social-media-posts`. **The newsletter issue that announces it** → `cw:newsletter-standards`.
+- **Getting the original found** → `seo-aeo-geo`. **The cover image and share card** → `cover-images`. **Correcting or retiring the original** → `content-refresh`.
+- **Posts that share the piece rather than copy it, summary posts included** → `social-media-posts`. **The newsletter issue that announces it** → `newsletter-standards`.
 - **The site's own canonical and robots settings** are set by its code or CMS — work for whoever runs the site; this skill covers what the writer sets on each copy.

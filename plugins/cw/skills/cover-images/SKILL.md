@@ -19,10 +19,10 @@ Before applying this skill, find the publication's `profile.md`, `writing-guide.
 Its cover template, colours, fonts, logo rules and image style come from `brand.md`, and its image policy from the writing guide, never from this skill.
 
 - Where `brand.md` or the guide settles something this skill also covers, it wins; match the sample covers in `examples/`.
-- Where there's no `brand.md`, use the defaults below and offer to record the choices in one with `cw:style-guide`.
-- Where there's no guide at all, ask who the reader is and what the piece is for, and offer to build one with `cw:style-guide`.
+- Where there's no `brand.md`, use the defaults below and offer to record the choices in one with `style-guide`.
+- Where there's no guide at all, ask who the reader is and what the piece is for, and offer to build one with `style-guide`.
 
-When a guide changes: in a codebase, save the file where it was found; in a chat app, give the user the updated file to replace in the project. Never write inside the installed plugin.
+When a guide changes: in a codebase, save the file where it was found; in a chat app, give the user the updated file to replace in the project. Never write inside the installed skills' folder.
 
 ## Ask first
 
@@ -45,7 +45,7 @@ Pick the cover from what the piece delivers, in this order:
 
 Never the site's logo alone, and never the same image on every piece: a card has to say which piece it is. X asks for "a unique image representing the content of the page", not a logo or author photo that spans pages ([X](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary-card-with-large-image)), and Google asks for images relevant to the article rather than logos ([Google](https://developers.google.com/search/docs/appearance/structured-data/article)).
 
-Rights, credits and consent for a photo follow the same rules as any image in the piece → `cw:images-and-diagrams`. An AI-generated or composite cover is labelled the same way.
+Rights, credits and consent for a photo follow the same rules as any image in the piece → `images-and-diagrams`. An AI-generated or composite cover is labelled the same way.
 
 ## Words on the image
 
@@ -75,7 +75,7 @@ So the share image is:
 
 That one file covers the social cards. For Google, where the publishing platform lets you add more crops of the cover, Article structured data recommends several images at 16:9, 4:3 and 1:1, each at least 50,000 pixels ([Google: Article structured data](https://developers.google.com/search/docs/appearance/structured-data/article)).
 
-The cover on the page itself is sized by the platform's theme: upload the largest size it asks for and let it resize down. It's usually the largest thing on the page, so it decides how fast the page appears: compress it to roughly 200 KB or less, and use WebP or AVIF on the page where the platform allows (common practice). Never lazy-loading it and giving it high fetch priority are set in the site's theme or code, by whoever runs the site ([web.dev: optimise LCP](https://web.dev/articles/optimize-lcp)). A newsletter's header image follows email's rules → `cw:images-and-diagrams`.
+The cover on the page itself is sized by the platform's theme: upload the largest size it asks for and let it resize down. It's usually the largest thing on the page, so it decides how fast the page appears: compress it to roughly 200 KB or less, and use WebP or AVIF on the page where the platform allows (common practice). Never lazy-loading it and giving it high fetch priority are set in the site's theme or code, by whoever runs the site ([web.dev: optimise LCP](https://web.dev/articles/optimize-lcp)). A newsletter's header image follows email's rules → `images-and-diagrams`.
 
 ## Alt text
 
@@ -85,7 +85,7 @@ The cover on the page itself is sized by the platform's theme: upload the larges
 
 ## A template across the publication
 
-A reader should recognise the publication's cards in a feed before reading them. The template lives in `brand.md`'s cover template (→ `cw:style-guide`): the layout, where words and the logo sit, the typeface, the colours, the kinds of photo used, and what the card shows when there's no photo. Keep three or four covers that follow it in `examples/`. Then each cover is the template with one decision — the image or the words — not a new design.
+A reader should recognise the publication's cards in a feed before reading them. The template lives in `brand.md`'s cover template (→ `style-guide`): the layout, where words and the logo sit, the typeface, the colours, the kinds of photo used, and what the card shows when there's no photo. Keep three or four covers that follow it in `examples/`. Then each cover is the template with one decision — the image or the words — not a new design.
 
 ## Who sets what
 
@@ -121,6 +121,6 @@ Change the image before the piece is first shared: every platform keeps the card
 
 ## Boundaries
 
-- **Every other image in the piece** — photos, charts, diagrams, screenshots, email images, rights and labelling → `cw:images-and-diagrams`.
-- **The posts that share the piece** → `cw:social-media-posts`. **The newsletter issue** → `cw:newsletter-standards`.
-- **Getting the piece found** → `cw:seo-aeo-geo`. **The publication's template and palette** → `cw:style-guide`.
+- **Every other image in the piece** — photos, charts, diagrams, screenshots, email images, rights and labelling → `images-and-diagrams`.
+- **The posts that share the piece** → `social-media-posts`. **The newsletter issue** → `newsletter-standards`.
+- **Getting the piece found** → `seo-aeo-geo`. **The publication's template and palette** → `style-guide`.

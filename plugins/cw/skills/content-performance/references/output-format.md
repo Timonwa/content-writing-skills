@@ -35,25 +35,25 @@ Every field and section is always present. One the data can't support says so an
 
 | ID | Page | Topic folder | Numbers (export, range) | Observation | Recommendation | Next skill |
 | -- | ---- | ------------ | ----------------------- | ----------- | -------------- | ---------- |
-| 1  |      |              |                         |             |                | `cw:seo-aeo-geo` |
+| 1  |      |              |                         |             |                | `seo-aeo-geo` |
 
 ### Refreshes
 
 | ID | Page | Topic folder | Numbers (export, range) | Observation | Recommendation | Next skill |
 | -- | ---- | ------------ | ----------------------- | ----------- | -------------- | ---------- |
-|    |      |              |                         |             |                | `cw:content-refresh` |
+|    |      |              |                         |             |                | `content-refresh` |
 
 ### Merges, redirects and retirements
 
 | ID | Pages | Topic folders | Numbers (export, range) | Observation | Recommendation | Next skill |
 | -- | ----- | ------------- | ----------------------- | ----------- | -------------- | ---------- |
-|    |       |               |                         |             |                | `cw:content-refresh` |
+|    |       |               |                         |             |                | `content-refresh` |
 
 ### New pages
 
 | ID | Query | Numbers (export, range) | Existing page checked | Recommendation | Next skill |
 | -- | ----- | ----------------------- | --------------------- | -------------- | ---------- |
-|    |       |                         |                       |                | `cw:content-planning` |
+|    |       |                         |                       |                | `content-planning` |
 
 ### Internal links
 

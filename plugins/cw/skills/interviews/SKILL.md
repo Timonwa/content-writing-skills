@@ -26,13 +26,13 @@ Read the publication's `profile.md` and `writing-guide.md` before preparing anyt
 - **In a chat app:** the project's files, or files attached to the conversation.
 - **Otherwise:** ask the writer for them.
 
-The guide's policies on sources come first — whether anonymous sources are used, whether a source may see a draft, how people are named and how quotes are edited — and win wherever they differ from this skill. Where there's no guide, ask who the reader is and what the piece is for, and offer to build one with `cw:style-guide`.
+The guide's policies on sources come first — whether anonymous sources are used, whether a source may see a draft, how people are named and how quotes are edited — and win wherever they differ from this skill. Where there's no guide, ask who the reader is and what the piece is for, and offer to build one with `style-guide`.
 
 ## Ask first
 
 Read the answers from the topic's `brief.md` and the publication's `writing-guide.md` first; ask the writer only what's missing. Ask with the app's question tool where it has one, so the choices can be picked; otherwise as a numbered list answered by number. Offer choices where the answers are known and a short typed answer otherwise; where the guide has a default, show it and ask whether to use it. Record each answer in the `brief.md` field it belongs to, and an answer with no field under **Notes for whoever picks it up next**.
 
-1. **Which topic folder is the interview for?** The folder name under `topics/`, or "new" — a new topic is briefed first with `cw:content-planning`.
+1. **Which topic folder is the interview for?** The folder name under `topics/`, or "new" — a new topic is briefed first with `content-planning`.
 2. **Who are you interviewing?** an expert or researcher · a customer or user · someone with a personal or lived experience · a founder or business owner · a community member, event guest or attendee · another creator.
 3. **What will it become?** quotes in a piece · a Q&A article · a profile or feature · a case study · a testimonial.
 4. **Who is the person, and what does the piece lean on them for?** Short answer: name, role or organisation, and why them — what they know, did, use or lived through. Default: the brief's people to interview.
@@ -172,8 +172,8 @@ Each output has its own shape and its own sign-off, recorded in the notes file's
 
 ## Boundaries
 
-- **Writing an article, a feature or a profile from the notes** → `cw:article-standards`; the rules every piece obeys → `cw:writing-standards`.
-- **Deciding who to interview for which piece** → `cw:content-planning`. **Written sources, figures and fact-checking** → `cw:content-research`.
-- **Editing the draft** → `cw:editing-standards`; **reviewing it** → `/cw:review`.
-- **Interviewing an engineer or expert for documentation** → `tw:sme-interviews` in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).
+- **Writing an article, a feature or a profile from the notes** → `article-standards`; the rules every piece obeys → `writing-standards`.
+- **Deciding who to interview for which piece** → `content-planning`. **Written sources, figures and fact-checking** → `content-research`.
+- **Editing the draft** → `editing-standards`; **reviewing it** → `/review`.
+- **Interviewing an engineer or expert for documentation** → `sme-interviews` in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).
 - **The person is the authority on facts, not on wording** — except in a testimonial, where the words are theirs. How the rest is phrased for the reader is the writer's call.

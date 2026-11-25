@@ -51,7 +51,7 @@ Common practice, not platform rules: what keeps a post readable before the fold.
 
 ## Native images and video
 
-For an image or video posted on the platform itself; the image a shared link shows is `cw:cover-images`.
+For an image or video posted on the platform itself; the image a shared link shows is `cover-images`.
 
 | Platform                         | Size                                                                                                                   | Per post                                                                                                                                                                                                                                                                                                          |
 | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

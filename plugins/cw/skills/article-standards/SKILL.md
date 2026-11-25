@@ -19,10 +19,10 @@ Before writing or reviewing, find the publication's `profile.md` and `writing-gu
 Who the publication is for, why it exists, how it sounds and what its pieces are called come from that guide, never from this skill.
 
 - Where the guide settles something this skill also covers, the guide wins.
-- Where there's no guide, ask who the reader is and what the piece is for, and offer to build one with `cw:style-guide`.
+- Where there's no guide, ask who the reader is and what the piece is for, and offer to build one with `style-guide`.
 - Where a field is blank, ask and record the answer in the guide.
 
-When a guide changes: in a codebase, save the file where it was found; in a chat app, give the user the updated file to replace in the project. Never write inside the installed plugin.
+When a guide changes: in a codebase, save the file where it was found; in a chat app, give the user the updated file to replace in the project. Never write inside the installed skills' folder.
 
 **Read `profile.md` to check the piece fits the publication.** It says who the publication is for and what it's for — the job the publication does for readers, the job it does for its owner, the one action a piece should produce, what the audience already knows, who it's explicitly not for, and the disclosures it makes. A piece serving no stated purpose is the one to cut.
 
@@ -36,7 +36,7 @@ When a guide changes: in a codebase, save the file where it was found; in a chat
 
 Read the answers from the topic's `brief.md` and `profile.md`'s Defaults first; ask only what's missing. Ask with the app's question tool where it has one, so the choices can be picked; otherwise as a numbered list answered by number. Offer choices where the answers are known and a short typed answer otherwise; where the profile has a default, show it and ask whether to use it. Record each answer in the `brief.md` field it belongs to — the **What this topic becomes** table or a row of **The brief** — and an answer with no field under **Notes for whoever picks it up next**, so the next skill doesn't ask again.
 
-1. **Which topic folder is the post for?** The folder name under `topics/`, or "new" — a new topic is briefed first with `cw:content-planning`.
+1. **Which topic folder is the post for?** The folder name under `topics/`, or "new" — a new topic is briefed first with `content-planning`.
 2. **Who is the reader, and what's their question in their own words?** Short answer.
 3. **What should the reader walk away able to do?** do a task · understand · decide · keep current · share a lived experience.
 4. **What does this post add that existing ones on the topic don't?** Short answer: the angle.
@@ -46,15 +46,15 @@ Read the answers from the topic's `brief.md` and `profile.md`'s Defaults first; 
 
 ## Work in the topic folder
 
-Each topic has its own folder in the publication's `topics/` (`topics/2026-12-beginner-strength-plan/`), made when it's briefed (`cw:content-planning`). A blog post is one of the things a topic can become; the **What this topic becomes** table in `brief.md` says which.
+Each topic has its own folder in the publication's `topics/` (`topics/2026-12-beginner-strength-plan/`), made when it's briefed (`content-planning`). A blog post is one of the things a topic can become; the **What this topic becomes** table in `brief.md` says which.
 
 - **Claim it before writing.** Read `brief.md`: if **Held by** names someone else and the status isn't `paused`, leave it and say so. Otherwise set **Held by** to yourself and the date, the topic's status and its Blog post row to `drafting`, and the topic's line in the publication's `calendar.md` to match — that line only.
 - **Write only the blog post.** Where the table has a Blog post row, write `blog.md` and no other format's file; each has its own skill. Where it has none, say so and ask whether to add the row before writing.
 - **`blog.md` follows the [template](../style-guide/references/publication-template/topics/_template/blog.md)**: YAML front matter, then the body. Every field stays present, left `""` until it's known:
-  - `title` — one title: the headline on the page and the title in search and share previews, about 50–60 characters (a working target; `cw:seo-aeo-geo` gives its source). There's no separate SEO title or share title.
+  - `title` — one title: the headline on the page and the title in search and share previews, about 50–60 characters (a working target; `seo-aeo-geo` gives its source). There's no separate SEO title or share title.
   - `description` — one description: the meta description, the share description and the listing excerpt, about 150–160 characters.
-  - `author`, `author_bio`, `author_url` — the writer's details from the profile by default; a guest's own when someone else writes the post (`cw:pitching`).
-  - `cover_image` and `cover_alt` — a file in `images/` or a hosted URL (`cw:cover-images`).
+  - `author`, `author_bio`, `author_url` — the writer's details from the profile by default; a guest's own when someone else writes the post (`pitching`).
+  - `cover_image` and `cover_alt` — a file in `images/` or a hosted URL (`cover-images`).
   - `published_url` — blank until it's live; `updated` is the date of any change after that.
   - The body doesn't repeat the title as an H1; the platform renders it.
 - **Every claim's source goes in `sources.md`**, by its [template](../style-guide/references/publication-template/topics/_template/sources.md).
@@ -93,7 +93,7 @@ The section-by-section blueprint for each intent is in [references/article-struc
 The title and the first screen decide whether anyone reads the rest.
 
 - **The meaning in the first words.** Readers scanning a list of titles often take in only the first couple of words, so lead with the words that carry the subject ([NN/g](https://www.nngroup.com/articles/first-2-words-a-signal-for-scanning/)).
-- **A shape the profile uses** — a how-to, a number, a question, an outcome — chosen for the piece's intent. The one title is both the headline on the page and the title in search and share previews, so it carries the voice within about 50–60 characters (`cw:seo-aeo-geo`).
+- **A shape the profile uses** — a how-to, a number, a question, an outcome — chosen for the piece's intent. The one title is both the headline on the page and the title in search and share previews, so it carries the voice within about 50–60 characters (`seo-aeo-geo`).
 - **Write two or three candidates** and pick the one that promises exactly what the piece delivers. Where the platform can test headlines, test them; newsrooms run headline tests routinely, and winners have lifted click-through by 20% or more ([Nieman Lab](https://www.niemanlab.org/2021/10/how-a-b-testing-can-and-cant-improve-your-headline-writing/)).
 - **A short opening before the payoff:** about two to four sentences, or under about 100 words, before the reader gets what the title promised (common practice). A story opening is fine where the guide uses one; the point still arrives by the second or third paragraph.
 
@@ -125,7 +125,7 @@ Eye-tracking research finds people scan web pages rather than read them, and on 
 
 - **One H1, headings in order** — the platform renders the title as the H1, so the body starts at H2 and skips no level, and a screen reader's outline matches the piece.
 - **Descriptive link text.** "Read the full packing list", never "click here"; assistive technology lists links out of context, and a scanning reader reads them the same way.
-- **Alt text on every informative image**, written from its purpose, and never information carried only in an image (`cw:images-and-diagrams`).
+- **Alt text on every informative image**, written from its purpose, and never information carried only in an image (`images-and-diagrams`).
 - **Captions or a transcript** for video and audio ([WCAG 1.2](https://www.w3.org/WAI/WCAG22/quickref/#time-based-media)).
 - **Never meaning by colour alone** — "the red line" needs a label too ([WCAG 1.4.1](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html)).
 - **Tables with a header row**, used for data rather than layout.
@@ -163,10 +163,10 @@ Eye-tracking research finds people scan web pages rather than read them, and on 
 ## Boundaries
 
 - **Audience, purpose and disclosures** → the publication's `profile.md`. **Voice, titles, section names and formatting** → its `writing-guide.md`. Both live in the publication's folder; the topic's `brief.md`, `blog.md` and `sources.md` live in its folder under `topics/`.
-- **Technical documentation** — docs sites, API references, product help — is a different job with a different reader → `tw:developer-docs`, `tw:api-reference` or `tw:user-guides` in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).
-- **The voice rules under any piece of writing** → `cw:writing-standards`. **Tightening a finished draft** → `cw:editing-standards`. **The machine-written sweep** → `/cw:ai-check`.
-- **Code samples that must run** → `cw:code-samples`. **Diagrams and screenshots** → `cw:images-and-diagrams`. **The cover image** → `cw:cover-images`.
-- **Finding and checking the sources behind it** → `cw:content-research`. **A tutorial's companion repository** → `cw:demo-project`.
-- **Updating, correcting, merging or retiring a piece after it's published** → `cw:content-refresh`.
-- **The emails for writing for another publication, a swap, a co-written or guest piece, or a sponsor** — the pitch, the replies and the confirmation of what was agreed → `cw:pitching`.
-- **A periodic issue covering several pieces** → `cw:newsletter-standards`. **Promoting one piece** → `cw:social-media-posts`. **Getting it found** → `cw:seo-aeo-geo`. **Whether it's being found** → `/cw:content-performance`.
+- **Technical documentation** — docs sites, API references, product help — is a different job with a different reader → `developer-docs`, `api-reference` or `user-guides` in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).
+- **The voice rules under any piece of writing** → `writing-standards`. **Tightening a finished draft** → `editing-standards`. **The machine-written sweep** → `/ai-check`.
+- **Code samples that must run** → `code-samples`. **Diagrams and screenshots** → `images-and-diagrams`. **The cover image** → `cover-images`.
+- **Finding and checking the sources behind it** → `content-research`. **A tutorial's companion repository** → `demo-project`.
+- **Updating, correcting, merging or retiring a piece after it's published** → `content-refresh`.
+- **The emails for writing for another publication, a swap, a co-written or guest piece, or a sponsor** — the pitch, the replies and the confirmation of what was agreed → `pitching`.
+- **A periodic issue covering several pieces** → `newsletter-standards`. **Promoting one piece** → `social-media-posts`. **Getting it found** → `seo-aeo-geo`. **Whether it's being found** → `/content-performance`.

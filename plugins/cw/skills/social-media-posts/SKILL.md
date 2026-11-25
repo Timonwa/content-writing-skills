@@ -19,10 +19,10 @@ Before writing, find the publication's `profile.md` and `writing-guide.md` and r
 The audience, the one action, what must be disclosed, the voice, and the guide's **Social** section — the accounts and whose each is, "I" or "we", the tone on each platform, emoji, hashtags and mentions — come from that guide, never from this skill.
 
 - Where the guide settles something this skill also covers, the guide wins.
-- Where there's no guide, ask who the reader is and what the piece is for, and offer to build one with `cw:style-guide`.
+- Where there's no guide, ask who the reader is and what the piece is for, and offer to build one with `style-guide`.
 - Where a field is blank, ask and record the answer in the guide.
 
-When a guide changes: in a codebase, save the file where it was found; in a chat app, give the user the updated file to replace in the project. Never write inside the installed plugin.
+When a guide changes: in a codebase, save the file where it was found; in a chat app, give the user the updated file to replace in the project. Never write inside the installed skills' folder.
 
 **The voice stays the same; the tone moves with the platform.** The account sounds like itself everywhere, and the guide's Social section says how its tone shifts on each platform — relaxed on one, more formal on another. Where the section is missing, ask the writer for the tone on each platform in play and record it there. A personal account writes as "I", a publication's or company's as "we", unless the guide says otherwise.
 
@@ -30,7 +30,7 @@ When a guide changes: in a codebase, save the file where it was found; in a chat
 
 Read the answers from the topic's `brief.md` (its **Social posts** row above all), then `profile.md`'s Defaults, then the request; ask only what's missing. Ask with the app's question tool where it has one, so the choices can be picked; otherwise as a numbered list answered by number. Offer choices where the answers are known and a short typed answer otherwise; where the profile has a default, show it and ask whether to use it. Record each answer in the `brief.md` field it belongs to — the **What this topic becomes** table or a row of **The brief** — and any answer with no field under **Notes for whoever picks it up next**, so the next skill doesn't ask again.
 
-1. **Which topic folder are the posts for?** The folder name under `topics/`, or "new" — a stand-alone post or thread is its own topic, briefed first with `cw:content-planning`.
+1. **Which topic folder are the posts for?** The folder name under `topics/`, or "new" — a stand-alone post or thread is its own topic, briefed first with `content-planning`.
 2. **Which account posts them?** a person's own · the publication's · a company's · a colleague sharing the company's piece. Default: the guide's Social section.
 3. **What are the posts from?** a published piece · an announcement (a launch, an event, news) · the brief alone. Default: the piece, where the brief lists one.
 4. **Which platforms?** Pick any of the profile's. Default: the Social posts row's Where it goes, then the profile's Social platforms.
@@ -42,7 +42,7 @@ Read the answers from the topic's `brief.md` (its **Social posts** row above all
 
 ## Work in the topic folder
 
-Each topic has its own folder in the publication's `topics/` (`topics/2026-12-sourdough-starter/`), made when it's briefed (`cw:content-planning`). The posts go in its `social.md`; in a chat app, `<topic folder>--social.md`.
+Each topic has its own folder in the publication's `topics/` (`topics/2026-12-sourdough-starter/`), made when it's briefed (`content-planning`). The posts go in its `social.md`; in a chat app, `<topic folder>--social.md`.
 
 - **Claim it before writing.** Read `brief.md`: if **Held by** names someone else and the status isn't `paused`, leave it and say so. Otherwise set **Held by** and the date, the Social posts row's status to `drafting`, and the topic's line in the publication's `calendar.md` to match — that line only. When stopping, set the status (`in review`, `scheduled` once every post has a date, or `paused`) and clear **Held by**.
 - **Write only `social.md`.** Where the brief has no Social posts row, say so and ask whether to add one.
@@ -79,7 +79,7 @@ Others worth pulling when the piece carries the material: a **quote** worth argu
 
 - **Single post** — one angle, standing alone.
 - **Thread** — one angle unfolded over several posts, on platforms with a thread composer ([Threads](#threads)).
-- **Summary with link** — the piece's main points in the platform's idiom, then the link: the post that shares a blog post on LinkedIn, Substack Notes, Facebook and the like. It lives in `social.md`; a copy of the post on another blogging platform is `cw:cross-posting`.
+- **Summary with link** — the piece's main points in the platform's idiom, then the link: the post that shares a blog post on LinkedIn, Substack Notes, Facebook and the like. It lives in `social.md`; a copy of the post on another blogging platform is `cross-posting`.
 
 ## Platform limits
 
@@ -151,9 +151,9 @@ Write the set to the topic's `social.md`, then summarise it in chat. Never post,
 
 ## Boundaries
 
-- **The piece being promoted** → `cw:article-standards`. This writes the posts, not the post.
+- **The piece being promoted** → `article-standards`. This writes the posts, not the post.
 - **Voice and audience** → the publication's `writing-guide.md` and `profile.md`.
-- **A periodic issue covering several pieces** → `cw:newsletter-standards`.
-- **The image a shared link shows** → `cw:cover-images`.
-- **Whether any of it worked** → `/cw:content-performance`. **A copy of the piece on another blogging platform** → `cw:cross-posting`.
-- **Tightening prose that already exists** → `cw:editing-standards`. **The machine-written sweep** → `/cw:ai-check`.
+- **A periodic issue covering several pieces** → `newsletter-standards`.
+- **The image a shared link shows** → `cover-images`.
+- **Whether any of it worked** → `/content-performance`. **A copy of the piece on another blogging platform** → `cross-posting`.
+- **Tightening prose that already exists** → `editing-standards`. **The machine-written sweep** → `/ai-check`.

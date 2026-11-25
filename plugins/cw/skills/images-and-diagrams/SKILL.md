@@ -19,10 +19,10 @@ Before applying this skill, find the publication's `profile.md`, `writing-guide.
 Its image policy — credits, photo rights, AI-generated images — comes from the writing guide, and its colours, fonts, image style and chart style from `brand.md`, never from this skill.
 
 - Where `brand.md` or the guide settles something this skill also covers, it wins.
-- Where there's no `brand.md`, use the defaults below and offer to record the choices in one with `cw:style-guide`.
-- Where there's no guide at all, ask who the reader is and what the piece is for, and offer to build one with `cw:style-guide`.
+- Where there's no `brand.md`, use the defaults below and offer to record the choices in one with `style-guide`.
+- Where there's no guide at all, ask who the reader is and what the piece is for, and offer to build one with `style-guide`.
 
-When a guide changes: in a codebase, save the file where it was found; in a chat app, give the user the updated file to replace in the project. Never write inside the installed plugin.
+When a guide changes: in a codebase, save the file where it was found; in a chat app, give the user the updated file to replace in the project. Never write inside the installed skills' folder.
 
 ## Ask first
 
@@ -135,8 +135,8 @@ A worked example — deciding, fixing, crediting and describing every visual in 
 
 ## Boundaries
 
-- **Designing a cover image and the cards a link shows when it's shared** → `cw:cover-images`.
-- **Code is never an image** — code in a piece follows `cw:code-samples`.
-- **Whether the piece needs a visual at all, and where it sits** → `cw:article-standards` and `cw:newsletter-standards`.
-- **Visuals in documentation** → `tw:docs-images-and-diagrams` in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).
+- **Designing a cover image and the cards a link shows when it's shared** → `cover-images`.
+- **Code is never an image** — code in a piece follows `code-samples`.
+- **Whether the piece needs a visual at all, and where it sits** → `article-standards` and `newsletter-standards`.
+- **Visuals in documentation** → `docs-images-and-diagrams` in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).
 - **A logo, brand icon or favicon set** is a different job, out of scope.

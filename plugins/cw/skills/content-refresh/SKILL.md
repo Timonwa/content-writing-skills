@@ -19,9 +19,9 @@ Before refreshing, find the publication's `profile.md` and `writing-guide.md` an
 Voice, person, tone, terminology, formatting choices and who the reader is come from that guide, never from this skill.
 
 - Where the guide settles something this skill also covers — how update notes are worded, where corrections sit, whether old issues are ever edited — the guide wins.
-- Where there's no guide, ask who the reader is and what the piece is for, and offer to build one with `cw:style-guide`.
+- Where there's no guide, ask who the reader is and what the piece is for, and offer to build one with `style-guide`.
 
-When a guide changes: in a codebase, save the file where it was found; in a chat app, give the user the updated file to replace in the project. Never write inside the installed plugin.
+When a guide changes: in a codebase, save the file where it was found; in a chat app, give the user the updated file to replace in the project. Never write inside the installed skills' folder.
 
 ## Ask first
 
@@ -40,14 +40,14 @@ A refresh works in the topic's own folder, `topics/<yyyy-mm>-<slug>/` in the pub
 
 - **Claim it first.** Read `brief.md`. If "Held by" names someone else and the status isn't `paused`, leave it and say so. Otherwise set Held by and the date, and move the status of each format being refreshed, and the topic's own, from `published` to `drafting`.
 - **Edit the format files** — `blog.md`, and `newsletter.md` for the issue's web version — recheck claims against `sources.md`, update each source's Checked date and each claim's status, and put new screenshots in `images/`.
-- **Front matter.** In `blog.md`, set `updated` only for a substantive change; `published_url` stays as it is. Where the title or description changes, `cw:seo-aeo-geo` checks them.
+- **Front matter.** In `blog.md`, set `updated` only for a substantive change; `published_url` stays as it is. Where the title or description changes, `seo-aeo-geo` checks them.
 - **Every copy in `copies.md`.** A full copy gets the same change and the same correction or update note; an opening excerpt is rewritten only when the opening paragraphs changed. Set each platform's last synced date, and hand the owner the exact text for any copy they paste in themselves.
 - **Keep the change notes in the topic** — the reader-facing correction or update note in the format file, and a dated line in `brief.md`'s notes: `Refreshed <yyyy-mm-dd>: <decision> — <what changed> — <files and copies updated>`.
 - **When it's live again**, set each format's status and the topic's to `published` (or `retired`), clear Held by, and change the topic's line in `calendar.md` — only that line: its status, and its formats if one was retired. The line stays under **Published**.
 
 ## When to look again
 
-- **A performance review flags it** — ranking decay, a click-through gap, two pieces competing for one query, a page with no impressions (`/cw:content-performance`).
+- **A performance review flags it** — ranking decay, a click-through gap, two pieces competing for one query, a page with no impressions (`/content-performance`).
 - **A fact in it has moved** — a price, a version, a law, a statistic, a product's name or interface.
 - **A reader reports a problem** — an error, a broken step, a dead link. Treat every report as a lead to check, not a fix to apply blindly.
 - **The demo or code no longer runs** on the current versions, where the piece has either.
@@ -56,7 +56,7 @@ A refresh works in the topic's own folder, `topics/<yyyy-mm>-<slug>/` in the pub
   - the pieces that bring in most readers, every quarter;
   - pieces built on fast-moving facts — prices, versions, laws — every six months;
   - every other piece at least once a year;
-  - at once, when clicks fall by about 30% or more against the same period a year earlier (`/cw:content-performance`).
+  - at once, when clicks fall by about 30% or more against the same period a year earlier (`/content-performance`).
 
 ## Decide what the piece needs
 
@@ -70,7 +70,7 @@ Read the piece against its current reader and the profile's purpose, then pick o
 | **Redirect** | The piece is superseded by another that serves its reader fully                                            | Permanent redirect to the replacement   | —                                   |
 | **Retire**   | Nothing should replace it: the subject is gone, the advice is unsafe, the piece no longer fits the profile | Removed: 404 or 410                     | —                                   |
 
-A piece that is wrong but still useful is corrected, not retired. A piece that only needs promotion needs neither — it needs `cw:social-media-posts`.
+A piece that is wrong but still useful is corrected, not retired. A piece that only needs promotion needs neither — it needs `social-media-posts`.
 
 ## Refresh: what to recheck
 
@@ -79,14 +79,14 @@ Work through the piece as a reader arriving today:
 - **What ranks for its question now** — search the query and read the top results. A shift in what readers want (a comparison where a how-to used to win), subtopics the piece misses, and the follow-up questions Google shows beside the results are the usual reasons a sound piece slipped (common practice).
 
 - **Facts and figures** — every number, price, date, statistic and "currently", against its original source. A figure whose source has updated gets the new figure and the new source.
-- **Versions and steps** — every version named, and every step of a tutorial run again on the current versions (`cw:code-samples`, Code in a tutorial).
-- **The demo repo**, where the piece has one — it builds, runs and matches the piece; its README still describes it (`cw:demo-project`).
-- **Screenshots and images** — retaken where the interface changed; alt text updated to match (`cw:images-and-diagrams`).
+- **Versions and steps** — every version named, and every step of a tutorial run again on the current versions (`code-samples`, Code in a tutorial).
+- **The demo repo**, where the piece has one — it builds, runs and matches the piece; its README still describes it (`demo-project`).
+- **Screenshots and images** — retaken where the interface changed; alt text updated to match (`images-and-diagrams`).
 - **Links** — every external link resolves to what it claims; a moved source is relinked, a dead one replaced or removed with the claim it supported rechecked.
 - **Internal links** — out to newer pieces that now answer the follow-up question, and in from newer pieces that should point here.
-- **The title's promise** — the title and description still describe the piece after the changes (`cw:seo-aeo-geo`).
+- **The title's promise** — the title and description still describe the piece after the changes (`seo-aeo-geo`).
 - **Claims of first, best, only, latest** — the easiest to go stale; recheck or remove.
-- **The current writing guide** — while the piece is open, bring its title format, terms and mechanics up to the guide as it stands now (`cw:editing-standards`). Keep the author's own voice; only the rules the guide sets change.
+- **The current writing guide** — while the piece is open, bring its title format, terms and mechanics up to the guide as it stands now (`editing-standards`). Keep the author's own voice; only the rules the guide sets change.
 
 ### Substantive or cosmetic
 
@@ -138,15 +138,15 @@ Work through the piece as a reader arriving today:
 
 ## After a substantial refresh
 
-- **Recheck findability** — the title, description, slug and opening still match the question the piece answers (`cw:seo-aeo-geo`).
+- **Recheck findability** — the title, description, slug and opening still match the question the piece answers (`seo-aeo-geo`).
 - **Suggest the writer ask Google to recrawl it** — where they manage the site in Search Console, they can request indexing for the URL with URL Inspection ([Google: ask Google to recrawl](https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl)). The sitemap's `<lastmod>` should change with a substantive update and only then: Google uses it only when it's "consistently and verifiably" accurate ([Google: sitemaps](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap)). The CMS or whoever runs the site sets it.
-- **Re-promote what changed** — a new angle or a materially better answer is worth sharing again (`cw:social-media-posts`, which adds the posts to `social.md`; posts already live aren't edited); a significant update can go in the newsletter (`cw:newsletter-standards`).
+- **Re-promote what changed** — a new angle or a materially better answer is worth sharing again (`social-media-posts`, which adds the posts to `social.md`; posts already live aren't edited); a significant update can go in the newsletter (`newsletter-standards`).
 - **Record the refresh** in the topic's `brief.md`, so the next review knows it was checked and when.
 
 ## Boundaries
 
-- **Finding which pieces need attention** → `/cw:content-performance`.
-- **Rewriting the piece's structure or framing** → `cw:article-standards`; **the line-level edit** → `cw:editing-standards`; **a full review before republishing** → `/cw:review`.
-- **Tutorial code and the demo repo** → `cw:code-samples`, `cw:demo-project`.
-- **Cross-posting to a platform the topic isn't on yet** → `cw:cross-posting`; keeping the existing copies in step is this skill's job.
+- **Finding which pieces need attention** → `/content-performance`.
+- **Rewriting the piece's structure or framing** → `article-standards`; **the line-level edit** → `editing-standards`; **a full review before republishing** → `/review`.
+- **Tutorial code and the demo repo** → `code-samples`, `demo-project`.
+- **Cross-posting to a platform the topic isn't on yet** → `cross-posting`; keeping the existing copies in step is this skill's job.
 - **Setting up redirects, status codes and structured dates** — the site's hosting or CMS; this skill says which ones a piece needs.

@@ -19,9 +19,9 @@ Before planning, find the publication's `profile.md` and `writing-guide.md` and 
 Voice, person, tone, terminology, formatting choices and who the reader is come from that guide, never from this skill.
 
 - Where the guide settles something this skill also covers — piece types, cadence, the topics it never covers — the guide wins.
-- Where there's no guide, ask who the reader is and what the publication is for, and offer to build one with `cw:style-guide`.
+- Where there's no guide, ask who the reader is and what the publication is for, and offer to build one with `style-guide`.
 
-When a guide changes: in a codebase, save the file where it was found; in a chat app, give the user the updated file to replace in the project. Never write inside the installed plugin.
+When a guide changes: in a codebase, save the file where it was found; in a chat app, give the user the updated file to replace in the project. Never write inside the installed skills' folder.
 
 ## Ask first
 
@@ -58,7 +58,7 @@ Collect from what readers do, not from guesses about what they might want.
   - The related questions Google shows beside results suggest the follow-up questions a piece should answer (practice).
   - Google Ads' Keyword Planner estimates the number of searches a keyword gets each month ([Keyword Planner help](https://support.google.com/google-ads/answer/7337243)); accounts without active ad spend often see broad ranges, which are still enough to compare two ideas (common practice).
 - **What kind of page wins** — search the query and look at what ranks. If the results are product pages, tools or videos, a post won't take the spot; plan the kind of piece the results show the reader wants (common practice).
-- **Gaps from the last review** — the findings of `/cw:content-performance`: decayed pieces, missing pieces, queries with no page.
+- **Gaps from the last review** — the findings of `/content-performance`: decayed pieces, missing pieces, queries with no page.
 - **The writer's own work** — what they built, broke, measured or learned this month. First-hand material is the hardest to copy and the easiest to trust.
 
 Keep every idea in one list with its source, so a later decision can be traced to a reader.
@@ -76,13 +76,13 @@ Score each idea before it earns a slot. A simple 1–3 on each line is enough; t
 | Effort       | What does it cost — research, a demo project, images, an interview?                  |
 | Return       | Does it produce the profile's one action, or support pieces that do?                 |
 
-Experience matters because Google asks whether content "clearly demonstrate[s] first-hand expertise and a depth of knowledge"; E-E-A-T "itself isn't a specific ranking factor", and "trust is most important" ([Google: helpful content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)). An idea with high demand and no experience behind it is a candidate for an interview (`cw:interviews`) or research (`cw:content-research`), not for a confident guess.
+Experience matters because Google asks whether content "clearly demonstrate[s] first-hand expertise and a depth of knowledge"; E-E-A-T "itself isn't a specific ranking factor", and "trust is most important" ([Google: helpful content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)). An idea with high demand and no experience behind it is a candidate for an interview (`interviews`) or research (`content-research`), not for a confident guess.
 
 ## What not to plan
 
 - **Topics chosen only because they trend.** Google lists "writing about things simply because they seem trending" and "producing lots of content on many different topics" as signs of search-engine-first content ([Google: helpful content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)).
 - **Volume for its own sake.** Scaled content abuse is "when many pages are generated for the primary purpose of manipulating search rankings and not helping users", "no matter how it's created" — including generating many pages with AI "without adding value for users" ([Google spam policies](https://developers.google.com/search/docs/essentials/spam-policies#scaled-content)).
-- **Near-duplicate pieces** — one per keyword variant, or the same piece retold for a new year. Update the original instead (`cw:content-refresh`).
+- **Near-duplicate pieces** — one per keyword variant, or the same piece retold for a new year. Update the original instead (`content-refresh`).
 - **A fixed word-count target.** Google has no preferred length; size each piece by its job and by what currently ranks for its question. As a reference point, one annual survey of content marketers put the average post at 1,333 words in 2025, with 9% publishing over 2,000 words and those writers more likely to report strong results ([Orbit Media via MarketingProfs](https://www.marketingprofs.com/charts/2025/53736/blogging-benchmarks-2025-word-count-frequency-study-orbit-media)) — an average, not a target.
 
 ## Series and clusters
@@ -96,16 +96,16 @@ Experience matters because Google asks whether content "clearly demonstrate[s] f
 
 Balance what the plan asks of readers and of the writer:
 
-- **By reader intent** — do a task, understand, decide, keep current, share a lived experience (`cw:article-standards`). A plan of only tutorials or only opinion narrows who stays.
-- **New pieces and updates** — schedule refreshes of pieces that still bring readers in, beside new ones (`cw:content-refresh`). An update often returns more than a new piece.
+- **By reader intent** — do a task, understand, decide, keep current, share a lived experience (`article-standards`). A plan of only tutorials or only opinion narrows who stays.
+- **New pieces and updates** — schedule refreshes of pieces that still bring readers in, beside new ones (`content-refresh`). An update often returns more than a new piece.
 - **Long and short** — a demanding piece with a demo project and interviews next to quicker ones, so the cadence holds.
 
 ## Calendar and cadence
 
 - **Pick a cadence the writer can keep through a bad month** — weekly, fortnightly, monthly. Consistency builds a readership; a burst and a silence loses it (practice).
-- **Work back from each publish date** — research, interview, draft, a demo project where the piece has one (`cw:demo-project`), images (`cw:cover-images`), edit (`cw:editing-standards`), review (`/cw:review`), findability (`cw:seo-aeo-geo`).
+- **Work back from each publish date** — research, interview, draft, a demo project where the piece has one (`demo-project`), images (`cover-images`), edit (`editing-standards`), review (`/review`), findability (`seo-aeo-geo`).
 - **Keep a buffer** of one or two finished pieces, so a missed week doesn't break the run.
-- **Plan the distribution with the topic** — its brief lists what it becomes: the newsletter issue that carries it (`cw:newsletter-standards`), the posts that share it (`cw:social-media-posts`), the copies on other platforms (`cw:cross-posting`), each with its own date.
+- **Plan the distribution with the topic** — its brief lists what it becomes: the newsletter issue that carries it (`newsletter-standards`), the posts that share it (`social-media-posts`), the copies on other platforms (`cross-posting`), each with its own date.
 - **Date the seasonal and the timely** — launches, events, the start of a tax year — far enough ahead to write them well.
 
 ## Where the plan lives
@@ -120,7 +120,7 @@ An idea not yet briefed is a line too, with status `idea`, where it came from an
 
 Lines sit in three sections, the usual order for an editorial calendar: **Coming up** — topics with a publish date, soonest first; **Ideas** — no date yet, newest first; **Published** — published or retired, newest first. A new line goes in its place in its section, and a line moves when its topic gets a date or goes live. A topic's other dates, one per format, live in its brief.
 
-`calendar.md` is the one file every topic shares: change only your topic's line, never rewrite the file. Never write it inside the installed plugin — an update replaces the plugin's files and the calendar goes with them.
+`calendar.md` is the one file every topic shares: change only your topic's line, never rewrite the file. Never write it inside the installed skills' folder — an update replaces those files and the calendar goes with them.
 
 ## A folder and a brief for each topic
 
@@ -132,7 +132,7 @@ The folder starts with `brief.md`:
 
 - **At the top** — Status, Held by (who, or which agent, and since when), Kind, and Series (name and part, or blank).
 - **What this topic becomes** — one row per format: its file, where it goes (for cross-posts, each platform with full copy or opening excerpt), its publish date, its own status, and its link once live. The topic's status is the overall one, `published` once every row is.
-- **The brief** (standard editorial practice) — the reader and the question in their words; the search query and the kind of page that ranks for it; the angle; an outline, the sources to check (`cw:content-research`) and the people to interview (`cw:interviews`); the one action; the internal links in and out, including the cluster it belongs to.
+- **The brief** (standard editorial practice) — the reader and the question in their words; the search query and the kind of page that ranks for it; the angle; an outline, the sources to check (`content-research`) and the people to interview (`interviews`); the one action; the internal links in and out, including the cluster it belongs to.
 
 ## Claiming and pausing a topic
 
@@ -147,7 +147,7 @@ In a chat app, a project's files can't hold folders: name a topic's files `<topi
 
 ## Review the plan
 
-- **After each review cycle** (`/cw:content-performance`), move what worked up and what didn't out.
+- **After each review cycle** (`/content-performance`), move what worked up and what didn't out.
 - **When the profile changes**, re-score the list against the new purpose.
 - **Retire ideas** that have sat unscheduled through several cycles; the list should stay short enough to read.
 
@@ -167,11 +167,11 @@ In a chat app, a project's files can't hold folders: name a topic's files `<topi
 
 ## Boundaries
 
-- **Writing the piece** → `cw:article-standards`; the newsletter issue → `cw:newsletter-standards`.
-- **Researching a piece's facts** → `cw:content-research`.
-- **Interviewing anyone for a piece** → `cw:interviews`.
-- **Pitching a planned piece to another publication** → `cw:pitching`.
-- **Getting a piece found** → `cw:seo-aeo-geo`.
-- **Reviewing how pieces did** → `/cw:content-performance`.
-- **Updating or retiring a published piece** → `cw:content-refresh`.
-- **The publication's profile and writing guide** → `cw:style-guide`.
+- **Writing the piece** → `article-standards`; the newsletter issue → `newsletter-standards`.
+- **Researching a piece's facts** → `content-research`.
+- **Interviewing anyone for a piece** → `interviews`.
+- **Pitching a planned piece to another publication** → `pitching`.
+- **Getting a piece found** → `seo-aeo-geo`.
+- **Reviewing how pieces did** → `/content-performance`.
+- **Updating or retiring a published piece** → `content-refresh`.
+- **The publication's profile and writing guide** → `style-guide`.
