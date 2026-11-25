@@ -4,12 +4,12 @@
     {
       "id": 1,
       "prompt": "Write the intro for my blog post on rotating API keys. There's no writing guide for the blog yet. Keep it friendly and personal — maybe open with how I lost a weekend to a leaked key last year.",
-      "expected_output": "Should look for the publication's profile.md and writing-guide.md first and, finding none, not invent a voice: ask who the reader is and what the post is for, and offer to build a guide with cw:style-guide. Should accept the first-person anecdote as an opening for a personal post, as long as the post says why it matters by the second or third paragraph. Should then lead with what the reader can do and when they need to (rotate when a key may have leaked or on a schedule), not with background.",
+      "expected_output": "Should look for the publication's profile.md and writing-guide.md first and, finding none, not invent a voice: ask who the reader is and what the post is for, and offer to build a guide with style-guide. Should accept the first-person anecdote as an opening for a personal post, as long as the post says why it matters by the second or third paragraph. Should then lead with what the reader can do and when they need to (rotate when a key may have leaked or on a schedule), not with background.",
       "files": [],
       "expectations": [
         "Checks for the publication's profile.md and writing-guide.md before writing",
         "Asks who the reader is and what the post is for when there's no guide",
-        "Offers to build a guide with cw:style-guide",
+        "Offers to build a guide with style-guide",
         "Allows the anecdote but reaches the point by the second or third paragraph",
         "Leads with what the reader can do, not background"
       ]
@@ -45,7 +45,7 @@
     {
       "id": 4,
       "prompt": "Our older blog posts all say 'simply add the flour' and use 'we' everywhere. I'm writing a new post — should I match them so the blog stays consistent?",
-      "expected_output": "Should advise matching the established terms for the subject but not the drifted habits: 'simply' is a minimiser to cut, and 'we' should follow the publication's writing guide or, with no guide, be asked about rather than copied from old posts. Should say the existing posts conflict with the rules and recommend correcting them when they're refreshed (e.g. with cw:content-refresh) rather than copying the drift into a new post.",
+      "expected_output": "Should advise matching the established terms for the subject but not the drifted habits: 'simply' is a minimiser to cut, and 'we' should follow the publication's writing guide or, with no guide, be asked about rather than copied from old posts. Should say the existing posts conflict with the rules and recommend correcting them when they're refreshed (e.g. with content-refresh) rather than copying the drift into a new post.",
       "files": [],
       "expectations": [
         "Distinguishes matching terms from copying habits",

@@ -16,7 +16,7 @@
     {
       "id": 2,
       "prompt": "Polish the sentences in topics/2026-10-build-a-cli/ — it's a tutorial and the structure's fine.",
-      "expected_output": "Should read the topic's brief.md first — which formats it covers, the reader, Held by — and ask only what the brief leaves open, such as whether the edits go into blog.md or come back as proposals. Should still check substantive and accuracy levels before line edits: the title's promise, the point early, and that every command and sample runs from a clean start (cw:code-samples). Should flag what can't be verified. Edits blog.md.",
+      "expected_output": "Should read the topic's brief.md first — which formats it covers, the reader, Held by — and ask only what the brief leaves open, such as whether the edits go into blog.md or come back as proposals. Should still check substantive and accuracy levels before line edits: the title's promise, the point early, and that every command and sample runs from a clean start (code-samples). Should flag what can't be verified. Edits blog.md.",
       "files": [],
       "expectations": [
         "Reads brief.md for the formats and reader, asks only what's missing, and records each answer in its brief field",
@@ -42,13 +42,13 @@
     {
       "id": 4,
       "prompt": "Does this blog post sound AI-written? It uses a lot of em dashes and the word 'delve'.",
-      "expected_output": "Should run the AI-tell pass: first check that citations and quotes exist and say what's claimed, then judge em-dash density per 1,000 words, stock words and phrases, and structural patterns, while leaving first-person asides and the publication's sign-off alone as voice. Points to /cw:ai-check for a full report.",
+      "expected_output": "Should run the AI-tell pass: first check that citations and quotes exist and say what's claimed, then judge em-dash density per 1,000 words, stock words and phrases, and structural patterns, while leaving first-person asides and the publication's sign-off alone as voice. Points to /ai-check for a full report.",
       "files": [],
       "expectations": [
         "Checks sources and citations before style",
         "Judges em-dash density per 1,000 words",
         "Flags stock vocabulary like 'delve'",
-        "Leaves voice features alone and points to /cw:ai-check"
+        "Leaves voice features alone and points to /ai-check"
       ]
     }
   ]

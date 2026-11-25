@@ -69,12 +69,12 @@ Length is a range per type (a how-to, an essay, an issue), so a piece that runs 
 
 ## Titles
 
-| Field     | Your answer                                                                                                                                                                   |
-| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Formats   | _the shapes, with a real example each_                                                                                                                                        |
-| Case      | _sentence case · title case_                                                                                                                                                  |
-| Subtitles | _used or not_                                                                                                                                                                 |
-| Length    | _one title is the headline, the search title and the share title; about 50–60 characters is the working target, because results cut titles by pixel width (`cw:seo-aeo-geo`)_ |
+| Field     | Your answer                                                                                                                                                                |
+| --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Formats   | _the shapes, with a real example each_                                                                                                                                     |
+| Case      | _sentence case · title case_                                                                                                                                               |
+| Subtitles | _used or not_                                                                                                                                                              |
+| Length    | _one title is the headline, the search title and the share title; about 50–60 characters is the working target, because results cut titles by pixel width (`seo-aeo-geo`)_ |
 
 ## Openings
 
@@ -133,11 +133,11 @@ _Delete this section if the publication doesn't publish code._
 
 ## Search and preview
 
-| Field         | Your answer                                                                                                                                                   |
-| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Slug          | _short readable words, hyphenated; set once_                                                                                                                  |
-| Description   | _one per piece, used as the meta description, share description and listing excerpt; about 150–160 characters, the point in the first 120 (`cw:seo-aeo-geo`)_ |
-| Reading level | _a target and the tool that checks it_                                                                                                                        |
+| Field         | Your answer                                                                                                                                                |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Slug          | _short readable words, hyphenated; set once_                                                                                                               |
+| Description   | _one per piece, used as the meta description, share description and listing excerpt; about 150–160 characters, the point in the first 120 (`seo-aeo-geo`)_ |
+| Reading level | _a target and the tool that checks it_                                                                                                                     |
 
 ## Social
 
@@ -157,11 +157,11 @@ _Delete this section if the publication posts nowhere. The voice stays the same 
 
 _Delete this section if the publication has no newsletter._
 
-| Field        | Your answer                                                            |
-| ------------ | ---------------------------------------------------------------------- |
-| Subject line | _the format, a real example, and a length (`cw:newsletter-standards`)_ |
-| Preview text | _the format and a length; it follows the subject, never repeats it_    |
-| Sender name  | _the name readers see_                                                 |
+| Field        | Your answer                                                         |
+| ------------ | ------------------------------------------------------------------- |
+| Subject line | _the format, a real example, and a length (`newsletter-standards`)_ |
+| Preview text | _the format and a length; it follows the subject, never repeats it_ |
+| Sender name  | _the name readers see_                                              |
 
 ## Policies
 

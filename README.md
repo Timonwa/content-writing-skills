@@ -20,7 +20,7 @@ Agent skills that help writers plan, write, edit and review blog posts, newslett
 
 ## What's in it
 
-One set, `cw`, for anyone who writes blog posts, newsletters, social posts or guest posts, on any subject. It takes a piece from the idea to how it performs: planning, research, interviews, drafting, images, editing, review, getting found, cross-posting, refreshing and pitching. It also holds the rules under every piece: plain language, sourced claims, code samples that run, and a check for machine-written prose.
+These skills are for anyone who writes blog posts, newsletters, social posts or guest posts, on any subject. They take a piece from the idea to how it performs: planning, research, interviews, drafting, images, editing, review, getting found, cross-posting, refreshing and pitching. They also hold the rules under every piece: plain language, sourced claims, code samples that run, and a check for machine-written prose.
 
 For documentation — developer docs, help-centre articles, API references, READMEs, release notes — see [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).
 
@@ -33,6 +33,8 @@ For documentation — developer docs, help-centre articles, API references, READ
 
 ## Install
 
+### Any IDE or AI agent
+
 ```shell
 npx skills add Timonwa/content-writing-skills
 ```
@@ -41,9 +43,20 @@ npx skills add Timonwa/content-writing-skills
 
 Without Node, copy the folders inside `plugins/cw/skills/` into `.agents/skills/` in your project, or `~/.agents/skills/` for every project. Many agents read that folder. For the rest, use the skills folder your agent's docs name.
 
+### Claude app (web or desktop)
+
+Install the plugin once, then work in a Project for each publication (see [Set up a publication](#set-up-a-publication)).
+
+1. Open **Customize > Plugins**.
+2. Select **Add > Add marketplace > Add from a repository**, and enter `Timonwa/content-writing-skills`.
+3. Add **cw**.
+4. Turn on **Settings > Capabilities > Create and edit files**. Skills don't run without it. On Team and Enterprise plans, an admin turns it on.
+
+Plugins are saved to your account, so they work in chat on mobile too. To get the latest changes, select **Check for updates** in **Customize > Plugins**, or turn on **Sync automatically** for the marketplace.
+
 ## Set up a publication
 
-`cw` writes for a blog or newsletter using what you've recorded about it: who reads it, how it sounds, how it looks. Say "set up my publication" and `style-guide` builds those files with you. Leave anything you haven't decided blank, and a skill asks about it later.
+The skills write for a blog or newsletter using what you've recorded about it: who reads it, how it sounds, how it looks. Say "set up my publication" and `style-guide` builds those files with you. Leave anything you haven't decided blank, and a skill asks about it later.
 
 ```text
 publications/

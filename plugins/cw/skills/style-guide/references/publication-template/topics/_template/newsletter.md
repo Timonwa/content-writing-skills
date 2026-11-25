@@ -1,6 +1,6 @@
 ---
-subject: "" # length and style from cw:newsletter-standards
-preview_text: "" # length and style from cw:newsletter-standards
+subject: "" # length and style from newsletter-standards
+preview_text: "" # length and style from newsletter-standards
 send_date: ""
 audience: "" # the list or segment it goes to
 cover_image: "" # a file in images/ or a hosted URL

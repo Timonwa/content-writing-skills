@@ -33,7 +33,7 @@ Per channel:
 
 ## Defaults
 
-What a new topic starts with, so `cw:content-planning` can offer each one as the answer to a brief's question instead of asking from scratch. A brief may depart from any default; the default only changes when the owner says the publication's habit has.
+What a new topic starts with, so `content-planning` can offer each one as the answer to a brief's question instead of asking from scratch. A brief may depart from any default; the default only changes when the owner says the publication's habit has.
 
 - **A new topic becomes** — the formats a topic usually turns into: a blog post, a newsletter issue, social posts, cross-posts, a demo project, or any mix.
 - **First published on** — where the original lives: the publication's own blog, or the platform it's written on.

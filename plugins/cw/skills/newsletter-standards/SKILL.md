@@ -21,10 +21,10 @@ Before writing or reviewing, find the publication's `profile.md` and `writing-gu
 Who it's for, what the newsletter promised and how it reads come from that guide, never from this skill. An issue and a blog post from the same publication read as the same person.
 
 - Where the guide settles something this skill also covers, the guide wins.
-- Where there's no guide, ask who the reader is and what the newsletter is for, and offer to build one with `cw:style-guide`.
+- Where there's no guide, ask who the reader is and what the newsletter is for, and offer to build one with `style-guide`.
 - Where a field is blank, ask and record the answer in the guide.
 
-When a guide changes: in a codebase, save the file where it was found; in a chat app, give the user the updated file to replace in the project. Never write inside the installed plugin.
+When a guide changes: in a codebase, save the file where it was found; in a chat app, give the user the updated file to replace in the project. Never write inside the installed skills' folder.
 
 Four fields decide the issue before a word is written:
 
@@ -53,10 +53,10 @@ Read the answers from the topic's `brief.md` and `profile.md`'s Defaults first; 
 
 ## Work in the topic folder
 
-An issue is one of the things a topic can become. Each topic has its own folder in the publication's `topics/` (`topics/2026-12-grocery-budget/`), made when it's briefed (`cw:content-planning`).
+An issue is one of the things a topic can become. Each topic has its own folder in the publication's `topics/` (`topics/2026-12-grocery-budget/`), made when it's briefed (`content-planning`).
 
 - **An issue about a topic** is `newsletter.md` in that topic's folder, and the brief's **What this topic becomes** table has a Newsletter issue row.
-- **An issue that isn't about one topic** — a roundup, a personal note — is its own topic whose brief lists only a newsletter issue (`topics/2026-12-december-roundup/`). Where it has no folder yet, brief it first with `cw:content-planning`.
+- **An issue that isn't about one topic** — a roundup, a personal note — is its own topic whose brief lists only a newsletter issue (`topics/2026-12-december-roundup/`). Where it has no folder yet, brief it first with `content-planning`.
 - **Claim it before writing.** Read `brief.md`: if **Held by** names someone else and the status isn't `paused`, leave it and say so. Otherwise set **Held by** and the date, the Newsletter issue row's status to `drafting`, and the topic's line in the publication's `calendar.md` to match — that line only. When stopping, set the status and clear **Held by**.
 - **Write only the issue.** Fill `newsletter.md` and no other format's file; each has its own skill. Where the table has no Newsletter issue row, say so and ask whether to add one.
 - **`newsletter.md` follows the [template](../style-guide/references/publication-template/topics/_template/newsletter.md)**: front matter, then the body. Every field stays present, left `""` until it's known: `subject`, `preview_text`, `send_date`, `audience` (the list or segment), `cover_image`, `cover_alt`, and `web_url`, blank until it's sent. Subject and preview-text lengths are in [The shape of an issue](#the-shape-of-an-issue).
@@ -140,9 +140,9 @@ Benchmarks describe patterns, not targets. A publication's own trend line beats 
 ## Boundaries
 
 - **Audience, cadence, the signup promise and sender details** → the publication's `profile.md`. **Voice, subject format, sign-off and the wording of the ask** → its `writing-guide.md`. Both live in the publication's folder.
-- **The long-form pieces an issue links to** → `cw:article-standards`. An issue summarises them; it never reproduces one.
-- **Promoting a single piece** → `cw:social-media-posts`. A set of posts about one article is a different job from a periodic issue covering several.
-- **The emails with a sponsor** — the pitch, the replies and the confirmation of what was agreed → `cw:pitching`.
-- **The voice rules under every publication** → `cw:writing-standards`. **Tightening the draft** → `cw:editing-standards`. **The machine-written sweep** → `/cw:ai-check`.
-- **Whether the linked pieces are being found** → `/cw:content-performance`. **Reviewing an issue before it sends, as a report** → `/cw:review`.
+- **The long-form pieces an issue links to** → `article-standards`. An issue summarises them; it never reproduces one.
+- **Promoting a single piece** → `social-media-posts`. A set of posts about one article is a different job from a periodic issue covering several.
+- **The emails with a sponsor** — the pitch, the replies and the confirmation of what was agreed → `pitching`.
+- **The voice rules under every publication** → `writing-standards`. **Tightening the draft** → `editing-standards`. **The machine-written sweep** → `/ai-check`.
+- **Whether the linked pieces are being found** → `/content-performance`. **Reviewing an issue before it sends, as a report** → `/review`.
 - **List management and deliverability** — consent records, list cleaning, sender authentication, complaint rates, automation → the sending platform. Name what's missing; don't configure it.

@@ -12,13 +12,13 @@ A personal-finance publication is running "What I learned tracking every naira f
 
 ## What happens to each
 
-| Visual        | Decision                                    | Why                                                                                                                |
-| ------------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| Stock coins   | Cut, or replaced with a real photo          | Generic stock is decoration; readers skip it. The header slot is the cover image, which is `cw:cover-images`' job. |
-| The notebook  | Keep — it's the evidence the piece rests on | The real thing is content. The writer owns it; no consent needed beyond their own.                                 |
-| The bar chart | Redraw from zero; title states the finding  | A y-axis from ₦80,000 makes a 10% change look like a doubling.                                                     |
-| The dashboard | Recapture with demo data                    | A real account number is personal data.                                                                            |
-| The GIF       | Keep, with the key frame first              | Some Outlook versions show only the first frame.                                                                   |
+| Visual        | Decision                                    | Why                                                                                                             |
+| ------------- | ------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| Stock coins   | Cut, or replaced with a real photo          | Generic stock is decoration; readers skip it. The header slot is the cover image, which is `cover-images`' job. |
+| The notebook  | Keep — it's the evidence the piece rests on | The real thing is content. The writer owns it; no consent needed beyond their own.                              |
+| The bar chart | Redraw from zero; title states the finding  | A y-axis from ₦80,000 makes a 10% change look like a doubling.                                                  |
+| The dashboard | Recapture with demo data                    | A real account number is personal data.                                                                         |
+| The GIF       | Keep, with the key frame first              | Some Outlook versions show only the first frame.                                                                |
 
 ## The chart, before and after
 

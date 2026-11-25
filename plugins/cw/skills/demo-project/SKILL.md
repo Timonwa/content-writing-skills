@@ -20,9 +20,9 @@ Before applying this skill, find the publication's `profile.md` and `writing-gui
 Voice, person, tone, terminology, formatting choices and who the reader is come from that guide, never from this skill.
 
 - Where the guide settles something this skill also covers, the guide wins.
-- Where there's no guide, ask who the reader is and what the piece is for before writing, and offer to build one with `cw:style-guide`.
+- Where there's no guide, ask who the reader is and what the piece is for before writing, and offer to build one with `style-guide`.
 
-When a guide changes: in a codebase, save the file where it was found; in a chat app, give the user the updated file to replace in the project. Never write inside the installed plugin.
+When a guide changes: in a codebase, save the file where it was found; in a chat app, give the user the updated file to replace in the project. Never write inside the installed skills' folder.
 
 ## Ask first
 
@@ -48,14 +48,14 @@ The repo is one of the things a topic can become: the brief's **What this topic 
 
 A demo repo is either the **owner's own** or written **for a third party** (a client, another author, a company). That decides every name and link it promotes.
 
-- **The owner's own** — take the author name, publication URL and audience from the publication's `profile.md`, and the GitHub handle from `git remote get-url origin`. Ask only for what neither has. Where the publication has no folder yet, build one with `cw:style-guide`.
+- **The owner's own** — take the author name, publication URL and audience from the publication's `profile.md`, and the GitHub handle from `git remote get-url origin`. Ask only for what neither has. Where the publication has no folder yet, build one with `style-guide`.
 - **A third party's** — their name and links everywhere, never the owner's.
 
 ## Plan the repo with the piece
 
 - **One repository per tutorial**, or one folder per piece in a samples repository when a publication runs many small examples. A reader should clone only what the piece needs.
 - **Decide what the reader clones before writing step one**, and write the steps against it: the starter state, the commands, the file names.
-- **The code in the piece and the code in the repo are the same code.** Every snippet in the piece exists, character for character, at the point in the repo the piece says it does (`cw:code-samples`, Code in a tutorial).
+- **The code in the piece and the code in the repo are the same code.** Every snippet in the piece exists, character for character, at the point in the repo the piece says it does (`code-samples`, Code in a tutorial).
 
 ## Branches and tags
 
@@ -88,20 +88,20 @@ Code rots as dependencies and platforms move on. Catch it before readers do:
 
 - **No real key, token or password is ever committed**, including in history. If one was, revoke it at the issuer first, then remove it.
 - **`.env.example` lists every variable** the code reads, with no values, and the README says to copy it to `.env`. `.env` is in `.gitignore`.
-- **Placeholders match the piece**: the same names and the same convention in the article, the README and `.env.example` (`cw:code-samples` for the convention).
+- **Placeholders match the piece**: the same names and the same convention in the article, the README and `.env.example` (`code-samples` for the convention).
 - **Free tiers and test modes first**: a reader shouldn't need a paid account or a production key to finish the tutorial; where one is needed, the piece says so before step one.
 
 ## Licence and credit
 
 - **Add a licence file.** Without one, GitHub notes that default copyright applies and "no one may reproduce, distribute, or create derivative works from your work" — so readers can't legally reuse the demo's code ([GitHub](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)). A permissive licence such as MIT suits code meant to be copied; [choosealicense.com](https://choosealicense.com) compares them. The publication's or client's policy wins where it has one.
-- **Borrowed code keeps its licence and its credit** — a comment at the code, and a line in the README (`cw:code-samples`, Borrowed code). Assets — images, fonts, data — carry their own licences and credits too.
+- **Borrowed code keeps its licence and its credit** — a comment at the code, and a line in the README (`code-samples`, Borrowed code). Assets — images, fonts, data — carry their own licences and credits too.
 
 ## In step with the piece
 
 - **The piece links the exact state it was written against**: a tag or a commit, not only the branch, so a reader can always get the version the steps describe.
 - **Change both together.** An update to the repo that changes a step, an output or a screenshot is an update to the piece, and the reverse; publish them at the same time.
 - **A "Tested with" line** in the README — the runtime and key dependency versions and the date it was last run end to end — tells a reader how fresh it is.
-- **Retiring a piece retires its repo**: archive it so it becomes read-only and says so on GitHub ([GitHub](https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories)), and point the README at the replacement if there is one. Updating or retiring the piece itself → `cw:content-refresh`.
+- **Retiring a piece retires its repo**: archive it so it becomes read-only and says so on GitHub ([GitHub](https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories)), and point the README at the replacement if there is one. Updating or retiring the piece itself → `content-refresh`.
 
 ## README and GitHub About
 
@@ -120,7 +120,7 @@ Each branch gets a README that links the piece in its first screenful, says whic
 
 ## Boundaries
 
-- **Code shown in the piece** — complete, runnable, elided correctly → `cw:code-samples`.
-- **Writing the tutorial itself** → `cw:article-standards`. **Tightening it** → `cw:editing-standards`.
-- **A README for a project that isn't a tutorial's companion** — a library, an app, a CLI → `tw:readmes` in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).
+- **Code shown in the piece** — complete, runnable, elided correctly → `code-samples`.
+- **Writing the tutorial itself** → `article-standards`. **Tightening it** → `editing-standards`.
+- **A README for a project that isn't a tutorial's companion** — a library, an app, a CLI → `readmes` in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).
 - **The author's name, links and audience** → the publication's `profile.md`; never put a third party's details into the owner's profile.

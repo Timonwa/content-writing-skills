@@ -19,9 +19,9 @@ Before applying this skill, find the publication's `profile.md` and `writing-gui
 Voice, person, tone, terminology, formatting choices and who the reader is come from that guide, never from this skill.
 
 - Where the guide settles something this skill also covers — title case, slug style, how dates are shown — the guide wins. Its lengths for the title and description follow the targets below.
-- Where there's no guide, ask who the reader is and what the piece is for before writing anything, and offer to build one with `cw:style-guide`.
+- Where there's no guide, ask who the reader is and what the piece is for before writing anything, and offer to build one with `style-guide`.
 
-When a guide changes: in a codebase, save the file where it was found; in a chat app, give the user the updated file to replace in the project. Never write inside the installed plugin.
+When a guide changes: in a codebase, save the file where it was found; in a chat app, give the user the updated file to replace in the project. Never write inside the installed skills' folder.
 
 ## Ask first
 
@@ -82,7 +82,7 @@ Google sets no length limit on either the title or the meta description; both ar
 | Slug        | 3–5 words                                                     | practice: short, readable and still true if the piece is updated                                                         |
 
 - **Title** — descriptive and concise, unique to the piece, the words that decide the click first, no repeated keywords ([Google](https://developers.google.com/search/docs/appearance/title-link)). It carries the publication's voice and still makes sense on a results page next to competing pieces. The site may add its name after a separator ([Google](https://developers.google.com/search/docs/appearance/title-link)), and the end is what gets cut first; where it does, don't type the name into the field as well. Google may build the title link from the title, the headings or link text pointing at the page, so a title that matches the piece is the one that shows.
-- **Description** — a summary of this piece, never shared across pieces, with details such as the author or date where they help; no keyword lists ([Google](https://developers.google.com/search/docs/appearance/snippet)). Snippets are "primarily created from the page content itself", and the description is used when it's more accurate, so the opening matters as much. A cross-post's opening excerpt is a different thing (`cw:cross-posting`).
+- **Description** — a summary of this piece, never shared across pieces, with details such as the author or date where they help; no keyword lists ([Google](https://developers.google.com/search/docs/appearance/snippet)). Snippets are "primarily created from the page content itself", and the description is used when it's more accurate, so the opening matters as much. A cross-post's opening excerpt is a different thing (`cross-posting`).
 - **Slug** — short, readable words joined by hyphens, in the reader's language, lowercase; avoid long ID numbers ([Google](https://developers.google.com/search/docs/crawling-indexing/url-structure)). Set it before publishing and don't change it afterwards without a redirect.
 
 ### Links
@@ -96,12 +96,12 @@ Google sets no length limit on either the title or the meta description; both ar
 
 - **A byline** where readers expect one, with a link to an author page or bio; never a made-up author ([Google](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)).
 - **A visible date, labelled** — "Published" or "Last updated" — and few other dates on the page; no future dates; the visible date and the structured data match ([Google](https://developers.google.com/search/docs/appearance/publication-dates)).
-- **Update the date only for a real update.** Changing the date "to make them seem fresh when the content has not substantially changed" is a warning sign ([Google](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)). Updating an existing piece properly is `cw:content-refresh`.
+- **Update the date only for a real update.** Changing the date "to make them seem fresh when the content has not substantially changed" is a warning sign ([Google](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)). Updating an existing piece properly is `content-refresh`.
 - **Say how AI was used** where readers would reasonably expect to know, as the publication's policy sets ([Google](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)).
 
 ### Images
 
-Place each image near the text it supports, give it alt text that says what it shows in context ("Dalmatian puppy playing fetch", not "puppy, dog, pet"), and a short descriptive file name (`black-kitten.jpg`, not `IMG00023.JPG`) ([Google](https://developers.google.com/search/docs/appearance/google-images)). The full craft of choosing and describing images is `cw:images-and-diagrams`.
+Place each image near the text it supports, give it alt text that says what it shows in context ("Dalmatian puppy playing fetch", not "puppy, dog, pet"), and a short descriptive file name (`black-kitten.jpg`, not `IMG00023.JPG`) ([Google](https://developers.google.com/search/docs/appearance/google-images)). The full craft of choosing and describing images is `images-and-diagrams`.
 
 ## AEO: being the direct answer
 
@@ -125,7 +125,7 @@ An AI answer — ChatGPT search, Perplexity, Claude, Copilot, Google's AI Mode �
 - **Original material.** Your measurements, tests, screenshots, worked examples, interviews and conclusions — "a first-hand review provides a unique perspective based on personal experience" ([Google](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)). Say what you did and when.
 - **Clear names.** Name the product, place, person, version or method exactly and consistently, so a passage still makes sense quoted alone (practice).
 - **Mentions are earned, not engineered.** Being cited by the sites engines already trust comes from work worth citing; "seeking inauthentic 'mentions' across the web isn't as helpful as it might seem" ([Google](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)), and wording engineered to trigger citations counts as abuse in Bing's guidelines ([Bing](https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a)).
-- **Fresh only when it's true.** Engines retrieve "up-to-date" pages ([Google](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)); update the piece and its date only when the content really changes (`cw:content-refresh`).
+- **Fresh only when it's true.** Engines retrieve "up-to-date" pages ([Google](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)); update the piece and its date only when the content really changes (`content-refresh`).
 - **Keep the text in text.** Important content belongs in the page's text, not only in an image or a video ([Google](https://developers.google.com/search/docs/appearance/ai-features)).
 - **The engine has to be allowed to read the page.** Each AI answer has its own search crawler, separate from its training crawler; [references/ai-crawlers.md](references/ai-crawlers.md) lists them. Check them once with whoever runs the site.
 
@@ -144,7 +144,7 @@ When the piece is republished on another site — Medium, Substack, dev.to, a pa
 - **Publish the original first**, and cross-post once it's indexed.
 - **Google** doesn't recommend a cross-domain canonical link for syndicated copies; it recommends that the other site block its copy from indexing ([Google](https://developers.google.com/search/docs/crawling-indexing/canonicalization-troubleshooting)). Ask for that where the platform allows it.
 - **Bing** still prefers a canonical link on the copy pointing to the original, so set the platform's canonical URL field too.
-- **Link back** to the original from the copy, in the text. The full process is `cw:cross-posting`.
+- **Link back** to the original from the copy, in the text. The full process is `cross-posting`.
 
 ## Before publishing
 
@@ -178,7 +178,7 @@ When the piece is republished on another site — Medium, Substack, dev.to, a pa
 ## Boundaries
 
 - **The site's code** — metadata APIs, sitemaps, robots rules, structured data templates → whoever runs the site; this skill covers what the writer controls.
-- **The piece itself** → `cw:article-standards`; **a newsletter issue** → `cw:newsletter-standards`.
-- **Images** → `cw:images-and-diagrams`. **The cover image and share card** → `cw:cover-images`. **Updating an old piece** → `cw:content-refresh`. **Republishing elsewhere** → `cw:cross-posting`.
-- **How it's performing after publishing** → `/cw:content-performance`.
-- **Documentation pages** → `tw:docs-seo-aeo-geo` in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).
+- **The piece itself** → `article-standards`; **a newsletter issue** → `newsletter-standards`.
+- **Images** → `images-and-diagrams`. **The cover image and share card** → `cover-images`. **Updating an old piece** → `content-refresh`. **Republishing elsewhere** → `cross-posting`.
+- **How it's performing after publishing** → `/content-performance`.
+- **Documentation pages** → `docs-seo-aeo-geo` in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).

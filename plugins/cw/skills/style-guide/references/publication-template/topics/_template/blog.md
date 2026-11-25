@@ -13,4 +13,4 @@ published_url: "" # blank until it's live
 updated: ""
 ---
 
-The body starts here, with no H1: the platform renders the title. One title and one description serve the page, search and share previews; the lengths are working targets, not platform rules (`cw:seo-aeo-geo`).
+The body starts here, with no H1: the platform renders the title. One title and one description serve the page, search and share previews; the lengths are working targets, not platform rules (`seo-aeo-geo`).

@@ -19,15 +19,15 @@ Before researching, find the publication's `profile.md` and `writing-guide.md` a
 Voice, person, tone, terminology, formatting choices and who the reader is come from that guide, never from this skill.
 
 - Where the guide settles something this skill also covers — how sources are cited, which sources the publication won't use, its AI-use policy — the guide wins.
-- Where there's no guide, ask who the reader is and what the piece is for, and offer to build one with `cw:style-guide`.
+- Where there's no guide, ask who the reader is and what the piece is for, and offer to build one with `style-guide`.
 
-When a guide changes: in a codebase, save the file where it was found; in a chat app, give the user the updated file to replace in the project. Never write inside the installed plugin.
+When a guide changes: in a codebase, save the file where it was found; in a chat app, give the user the updated file to replace in the project. Never write inside the installed skills' folder.
 
 ## Ask first
 
 Read the answers from the topic's `brief.md` and the publication's `writing-guide.md` first; ask only what's missing. Ask with the app's question tool where it has one, so the choices can be picked; otherwise as a numbered list answered by number. Offer choices where the answers are known and a short typed answer otherwise; where the guide has a default, show it and ask whether to use it. Record each answer in the `brief.md` field it belongs to — the **What this topic becomes** table or a row of **The brief** — and an answer with no field under **Notes for whoever picks it up next**, so the next skill doesn't ask again.
 
-1. **Which topic folder is the research for?** The folder name under `topics/`, or "new" — a new topic is briefed first with `cw:content-planning`.
+1. **Which topic folder is the research for?** The folder name under `topics/`, or "new" — a new topic is briefed first with `content-planning`.
 2. **Is this research before writing, or a fact-check of written work?** research before writing · fact-check of `blog.md`, `newsletter.md` or `social.md`.
 3. **Which claims must the piece establish?** Short answer, one sentence per claim. Default: the brief's outline.
 4. **Which sources are already in hand?** Short answer: links or titles. Default: the brief's sources to check.
@@ -37,7 +37,7 @@ Read the answers from the topic's `brief.md` and the publication's `writing-guid
 
 ## Work in the topic folder
 
-Each topic has its own folder in the publication's `topics/` (`topics/2026-11-remote-work-figures/`), made when it's briefed (`cw:content-planning`). Research writes one file there, `sources.md`, which serves every format the topic becomes — the blog post, the newsletter issue, the social posts.
+Each topic has its own folder in the publication's `topics/` (`topics/2026-11-remote-work-figures/`), made when it's briefed (`content-planning`). Research writes one file there, `sources.md`, which serves every format the topic becomes — the blog post, the newsletter issue, the social posts.
 
 - **Research doesn't claim the topic.** It edits no format file, so it runs even while someone holds the topic and never sets **Held by**. It only adds or updates rows in `sources.md`, never removes another's; a fact-check's findings on `blog.md`, `newsletter.md` or `social.md` go to whoever holds the topic, or under **Notes for whoever picks it up next** in `brief.md`.
 - **In a chat app**, the file is `<topic folder>--sources.md`; hand back only that file.
@@ -63,7 +63,7 @@ Use original sources whenever possible ([SPJ Code of Ethics](https://www.spj.org
 - **Follow every link to the end.** A source that cites a source isn't the source; read the one it cites, and check it says what the first one claims.
 - **Read laterally.** Before relying on an unfamiliar site or author, leave the page and see what others say about it — the "investigate the source" and "find better coverage" moves of [SIFT](https://hapgood.us/2019/06/19/sift-the-four-moves/).
 - **When the original can't be found, say so** in your notes, and either drop the claim or attribute it to where you did find it ("according to…"), never state it as established.
-- **A person is a source too.** When the written record runs out, or a claim needs someone's judgement or first-hand experience, interview → `cw:interviews`.
+- **A person is a source too.** When the written record runs out, or a claim needs someone's judgement or first-hand experience, interview → `interviews`.
 - **Tools that reach originals** (common practice): [Google Scholar](https://scholar.google.com) for papers and its "Cited by" list for what came after; the statistics portal of the agency that collects the figure; searches restricted with `site:` to an official domain and `filetype:pdf` for reports.
 
 ## Judge the source
@@ -81,7 +81,7 @@ The CRAAP checklist — currency, relevance, authority, accuracy, purpose — fr
 ## Figures and statistics
 
 - **Trace every number to its table.** Check the figure, its unit, its date, the population it describes and the exact wording of what was measured. A number that has travelled through three articles is often a different number by the end.
-- **Certainty matches the evidence** (`cw:writing-standards`). One observational study "suggests" or "is linked to"; only strong, repeated evidence "shows". Press releases overstate causal claims often enough to check every one against the study itself ([Sumner et al., BMJ 2014](https://www.bmj.com/content/349/bmj.g7015)).
+- **Certainty matches the evidence** (`writing-standards`). One observational study "suggests" or "is linked to"; only strong, repeated evidence "shows". Press releases overstate causal claims often enough to check every one against the study itself ([Sumner et al., BMJ 2014](https://www.bmj.com/content/349/bmj.g7015)).
 - **The usual traps**, each worth a second look before it goes in:
   - correlation presented as cause;
   - a relative change with no baseline ("doubles the risk" — from 1 in a million to 2);
@@ -96,7 +96,7 @@ The CRAAP checklist — currency, relevance, authority, accuracy, purpose — fr
 
 - **Take the exact words from the original** — the recording, the transcript, the person's own post — with enough context to know they mean what the piece will use them for.
 - **A quote found in another article** is checked against its original, or attributed to where you found it.
-- **Never** stitch remarks together, change a word inside quotation marks, or quote a paraphrase. Editing conventions for quotes come from the guide (`cw:interviews`).
+- **Never** stitch remarks together, change a word inside quotation marks, or quote a paraphrase. Editing conventions for quotes come from the guide (`interviews`).
 
 ## AI-assisted research
 
@@ -104,7 +104,7 @@ AI tools are a starting point for finding leads, never a source:
 
 - **Verify every fact, figure, quote and citation an AI supplies against the original.** Invented citations — papers, studies, quotes and links that don't exist, or don't say what's claimed — are a known failure ([Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing)). Open the link, find the passage, confirm the wording.
 - **Don't cite the AI** as the source of a fact; cite the original you confirmed.
-- **Follow the publication's AI-use policy** on what readers are told (`cw:style-guide`).
+- **Follow the publication's AI-use policy** on what readers are told (`style-guide`).
 
 ## Keep a source log
 
@@ -120,9 +120,9 @@ Record sources as you go, not at the end — in the topic's `sources.md`, by its
 
 - **Every claim in the topic's files** — `blog.md`, `newsletter.md`, `social.md` — **gets a row under Claims**, with where it sits; a claim that appears in two files gets a row for each. A claim with no row gets one or comes out, and nothing ships while a claim it keeps is `unverified`.
 - **A source is listed once**, however many claims it backs, and a caveat the piece must carry goes in its Notes.
-- **An interview is a source** of type `interview`, linking to its notes in `interviews/` (`cw:interviews`). **A figure an AI supplied** is listed by the original you found and checked, never by the AI.
+- **An interview is a source** of type `interview`, linking to its notes in `interviews/` (`interviews`). **A figure an AI supplied** is listed by the original you found and checked, never by the AI.
 - **Archive every web source you cite** with the Wayback Machine's [Save Page Now](https://web.archive.org/save) and put it in the Archived link column; pages move and change, and the archive shows what the source said when you checked it (common practice).
-- **Keep it after publishing** — it's what a correction, a reader's challenge or a refresh (`cw:content-refresh`) starts from.
+- **Keep it after publishing** — it's what a correction, a reader's challenge or a refresh (`content-refresh`) starts from.
 
 ## Cite in the piece
 
@@ -133,7 +133,7 @@ Record sources as you go, not at the end — in the topic's `sources.md`, by its
 
 ## Images and data you didn't create
 
-Charts, photos, screenshots and datasets carry rights and credits of their own → `cw:images-and-diagrams`.
+Charts, photos, screenshots and datasets carry rights and credits of their own → `images-and-diagrams`.
 
 ## Before you start writing
 
@@ -147,7 +147,7 @@ Charts, photos, screenshots and datasets carry rights and credits of their own �
 
 ## Boundaries
 
-- **Interviewing a person** → `cw:interviews`.
-- **Shaping the piece from the research** → `cw:article-standards`; **certainty and claims in the prose** → `cw:writing-standards`.
-- **Checking a finished draft's facts** as part of a review → `/cw:review`.
-- **Finding facts inside a codebase** for documentation → `tw:codebase-research` in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).
+- **Interviewing a person** → `interviews`.
+- **Shaping the piece from the research** → `article-standards`; **certainty and claims in the prose** → `writing-standards`.
+- **Checking a finished draft's facts** as part of a review → `/review`.
+- **Finding facts inside a codebase** for documentation → `codebase-research` in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).

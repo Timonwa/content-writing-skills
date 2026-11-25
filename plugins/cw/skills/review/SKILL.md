@@ -26,11 +26,11 @@ Before reviewing, find the publication's `profile.md` and `writing-guide.md` and
 Voice, person, tone, terminology, formatting choices and who the reader is come from that guide, never from this skill.
 
 - Where the guide settles something this skill also covers, the guide wins. A first-person story, a joke, an aside or a fragment used for rhythm isn't a finding when the guide's voice allows it.
-- Where there's no guide, ask who the reader is and what the piece is for, and offer to build one with `cw:style-guide`.
+- Where there's no guide, ask who the reader is and what the piece is for, and offer to build one with `style-guide`.
 
-When a guide changes: in a codebase, save the file where it was found; in a chat app, give the user the updated file to replace in the project. Never write inside the installed plugin.
+When a guide changes: in a codebase, save the file where it was found; in a chat app, give the user the updated file to replace in the project. Never write inside the installed skills' folder.
 
-The editing craft is `cw:editing-standards`; the universal writing rules are `cw:writing-standards`; the piece's shape comes from `cw:article-standards` or `cw:newsletter-standards`.
+The editing craft is `editing-standards`; the universal writing rules are `writing-standards`; the piece's shape comes from `article-standards` or `newsletter-standards`.
 
 ## Ask first
 
@@ -86,7 +86,7 @@ A topic lives in `topics/<yyyy-mm>-<slug>/` in the publication's folder; the for
 - **Every fact, figure, date, name and title** checked against its original source, not a summary of it. Verify before publishing and use original sources wherever possible ([SPJ Code of Ethics](https://www.spj.org/spj-code-of-ethics/)).
 - **Every quote** checked against the recording or notes, and attributed to who said it and in what capacity.
 - **Certainty matches the evidence.** A single or observational study "suggests"; a press release's claim is checked against the study, because press releases often overstate what a study found.
-- **Code in a tutorial runs.** Run every command and sample from a clean start, in order, copying from the piece — the rules are `cw:code-samples`' "Code in a tutorial". Record what you ran in **Verified**.
+- **Code in a tutorial runs.** Run every command and sample from a clean start, in order, copying from the piece — the rules are `code-samples`' "Code in a tutorial". Record what you ran in **Verified**.
 - **Every link goes where its text says**, to the original rather than an aggregator.
 - **Borrowed words, ideas and data are credited**, nothing is closely paraphrased, and an AI-assisted draft is checked for lifted passages.
 - **The claims that don't look checkable too** — timeframes, prices, "always", "the first". Flag what you couldn't verify rather than smoothing it over.
@@ -115,7 +115,7 @@ A topic lives in `topics/<yyyy-mm>-<slug>/` in the publication's folder; the for
 - **Images load, carry their credit, and have alt text that serves the piece.**
 - **The share preview** — the front matter's `title`, `description`, `cover_image` and `cover_alt` — shows what the piece is.
 - **A newsletter issue's envelope** — the subject line reflects what's inside; the preview text adds to the subject rather than repeating it; the sender name is the one subscribers recognise; the unsubscribe link is in the footer, and the publication's postal address where the law or the platform requires one. US law requires a clear way to opt out and a valid physical postal address in commercial email, and a subject line that matches the content ([FTC, CAN-SPAM](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business)).
-- **A newsletter issue's sending checks** — the subject and preview text within the lengths `cw:newsletter-standards` sets; the message under Gmail's 102 KB clipping point, past which the footer with the unsubscribe link is hidden ([Mailchimp](https://mailchimp.com/help/gmail-is-clipping-my-email/)); images in email-safe formats and GIFs under 1 MB (`cw:images-and-diagrams`).
+- **A newsletter issue's sending checks** — the subject and preview text within the lengths `newsletter-standards` sets; the message under Gmail's 102 KB clipping point, past which the footer with the unsubscribe link is hidden ([Mailchimp](https://mailchimp.com/help/gmail-is-clipping-my-email/)); images in email-safe formats and GIFs under 1 MB (`images-and-diagrams`).
 
 ### Blockers — do not publish
 
@@ -178,7 +178,7 @@ Everything else is unchanged: list the findings, ask which, fix only those, upda
 
 ## Boundaries
 
-- **Bringing an old piece up to the current guide** → `cw:content-refresh`. **Does it sound machine-written** → `/cw:ai-check`, run on request.
+- **Bringing an old piece up to the current guide** → `content-refresh`. **Does it sound machine-written** → `/ai-check`, run on request.
 - **Writing from scratch** — this reviews what exists. A finding that the piece should be several pieces is raised, not acted on.
-- **Documentation** is reviewed with `/tw:docs-review` in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).
+- **Documentation** is reviewed with `/docs-review` in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).
 - **The author owns the piece** and usually knows something about the subject you don't. Findings are proposals, and a rejected finding is not re-argued.
