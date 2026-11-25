@@ -27,64 +27,23 @@ For documentation — developer docs, help-centre articles, API references, READ
 ## How the skills work
 
 - Your agent picks a skill when your request matches it, so you don't have to name it. Commands run only when you call them.
-- To call a skill or command by name, type `$` and its name in Codex (`$article-standards`, `$review blog.md`), or `/` in Claude Code (`/article-standards`, or `/cw:article-standards` with the plugin). In other agents, ask for it by name: "use the article-standards skill". To see them all, ask your agent "which writing skills do you have?"
 - A skill reads your publication's guide first, then asks only what's still missing.
 - Every file it writes — a brief, a post, a report — follows a fixed template, so each run looks the same.
 - It never invents a fact, figure or quote. A gap stays marked until you fill it.
 
 ## Install
 
-### Any IDE or AI agent
-
 ```shell
 npx skills add Timonwa/content-writing-skills
 ```
 
-[`npx skills`](https://github.com/vercel-labs/skills) asks which skills to install and which agents to install them for — Cursor, GitHub Copilot, Codex, Gemini CLI, Claude Code and many more — and installs them in the current project. Add `-g` to install them for every project. To get the latest changes, run `npx skills update`.
+[`npx skills`](https://github.com/vercel-labs/skills) asks which skills to install and which agents to install them for, and installs them in the current project. Add `-g` to install them for every project. To get the latest changes, run `npx skills update`.
 
-To skip the questions, name your agents and take every skill. For example, for Codex and Claude Code in every project:
-
-```shell
-npx skills add Timonwa/content-writing-skills -g -a codex -a claude-code --skill '*'
-```
-
-Without Node, copy the folders inside `plugins/cw/skills/` into `.agents/skills/` in your project, or `~/.agents/skills/` for every project. Many agents read that folder. For the rest, use the skills folder your agent's docs name. To update, copy them again from the latest version of this repo.
-
-### Claude Code as a plugin
-
-Claude Code can also install the set as a plugin, which keeps the `cw:` prefix and runs commands as slash commands:
-
-```shell
-/plugin marketplace add Timonwa/content-writing-skills
-/plugin install cw@content-writing-skills
-```
-
-When it asks for a scope, pick one:
-
-- **User** — every project on your machine.
-- **Project** — everyone who clones the repo.
-- **Local** — this repo, for you only.
-
-To get the latest changes, run `/plugin marketplace update content-writing-skills`, or turn on auto-update for `content-writing-skills` under **Marketplaces** in `/plugin`.
-
-### Claude app (web or desktop)
-
-Install the plugin once, then work in a Project for each publication (see [Set up a publication](#set-up-a-publication)).
-
-1. Open **Customize > Plugins**.
-2. Select **Add > Add marketplace > Add from a repository**, and enter `Timonwa/content-writing-skills`.
-3. Add **cw**.
-4. Turn on **Settings > Capabilities > Create and edit files**. Skills don't run without it. On Team and Enterprise plans, an admin turns it on.
-
-Plugins are saved to your account, so they work in chat on mobile too. To get the latest changes, select **Check for updates** in **Customize > Plugins**, or turn on **Sync automatically** for the marketplace.
-
-### ChatGPT
-
-A custom GPT is coming soon.
+Without Node, copy the folders inside `plugins/cw/skills/` into `.agents/skills/` in your project, or `~/.agents/skills/` for every project. Many agents read that folder. For the rest, use the skills folder your agent's docs name.
 
 ## Set up a publication
 
-`cw` writes for a blog or newsletter using what you've recorded about it: who reads it, how it sounds, how it looks. Say "set up my publication" and `cw:style-guide` builds those files with you. Leave anything you haven't decided blank, and a skill asks about it later.
+`cw` writes for a blog or newsletter using what you've recorded about it: who reads it, how it sounds, how it looks. Say "set up my publication" and `style-guide` builds those files with you. Leave anything you haven't decided blank, and a skill asks about it later.
 
 ```text
 publications/
@@ -115,15 +74,15 @@ publications/
 **In a codebase:**
 
 - Name the folder in the project's `AGENTS.md`, which every coding agent reads: `Publications: publications/`.
-- For a folder outside the repo, add the same line to your agent's personal instructions file, such as `~/.claude/CLAUDE.md` for Claude Code or `~/.codex/AGENTS.md` for Codex.
+- For a folder outside the repo, add the same line to your agent's personal instructions file.
 - If nothing names a folder, the skills look for `publications/`, then ask.
 
-**In the Claude app:**
+**In a chat app:**
 
-- Make one Project per publication. Add its files, your logo, sample covers and any style guide you already have.
-- Projects can't hold folders, so a topic's files are named `<topic folder>--<file>`, such as `2026-12-sourdough-starter--blog.md`.
+- Make one project per publication. Add its files, your logo, sample covers and any style guide you already have.
+- Chat-app projects can't hold folders, so a topic's files are named `<topic folder>--<file>`, such as `2026-12-sourdough-starter--blog.md`.
 - When the agent gives you an updated file, replace the old one. For `calendar.md`, it gives you only the line to change.
-- Outside a Project, attach the files to the chat.
+- Outside a project, attach the files to the chat.
 
 ## Skills
 
@@ -149,15 +108,14 @@ publications/
 
 ## Commands
 
-| Command                   | Use it to                                                                        |
-| ------------------------- | -------------------------------------------------------------------------------- |
-| `/cw:review`              | Check a post or newsletter issue is ready to publish                             |
-| `/cw:ai-check`            | Find what makes a piece sound machine-written, with a suggested rewrite for each |
-| `/cw:content-performance` | See which posts to fix first, from your analytics export                         |
+| Command               | Use it to                                                                        |
+| --------------------- | -------------------------------------------------------------------------------- |
+| `review`              | Check a post or newsletter issue is ready to publish                             |
+| `ai-check`            | Find what makes a piece sound machine-written, with a suggested rewrite for each |
+| `content-performance` | See which posts to fix first, from your analytics export                         |
 
-- The table uses Claude Code plugin names. With a plain install, Claude Code drops the prefix (`/review blog.md`), and a command runs only when you type its `/` name. In Codex, type `$review blog.md`; in other agents, ask by name, such as "run review on blog.md". Add `--fix` the same way.
 - A command reports what it finds and doesn't edit anything while it checks.
-- Every command except `/cw:content-performance` takes `--fix`, which fixes only the findings you choose.
+- Every command except `content-performance` takes `--fix`, which fixes only the findings you choose.
 - Reports go to the topic's or publication's `reports/`.
 - Nothing is ever posted, published or scheduled for you.
 
@@ -174,21 +132,17 @@ Issues and pull requests are welcome, especially for a rule that misfires on you
 | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
 | `pnpm format`       | Format everything with Prettier                                                                                                               | `pnpm install` first        |
 | `pnpm format:check` | Check formatting without writing                                                                                                              | `pnpm install` first        |
-| `pnpm validate`     | Validate the Claude Code marketplace and plugin manifests                                                                                     | the Claude Code CLI on PATH |
 | `pnpm check:skills` | Check every skill against the Agent Skills rules and the house limits: 200 lines, a 550-character description, and a name no other skill uses | Node                        |
+| `pnpm validate`     | Validate the Claude Code marketplace and plugin manifests                                                                                     | the Claude Code CLI on PATH |
 
 The skills are Markdown, so there's no build step, and Prettier is the only dependency. Without installing it, run `pnpm dlx prettier --write .` instead.
 
 ## Support
 
-If these skills save you time, [buy me a coffee](https://buymeacoffee.com/timonwa).
+If these skills save you time, [star the repo](https://github.com/Timonwa/content-writing-skills) so other writers can find it, or [buy me a coffee](https://buymeacoffee.com/timonwa).
 
 For documentation, see [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills). For web apps built with Next.js, React and Firebase, see [engineering-skills](https://github.com/Timonwa/engineering-skills).
 
 ## License
 
 [MIT](LICENSE)
-
-## Moved from writing-skills
-
-Until 2026-11-25 this repo was `writing-skills`, with technical and content writing together. Technical writing now lives in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills), and `write:` skills are now `cw:*` here.
