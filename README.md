@@ -20,7 +20,7 @@ Agent skills that help writers plan, write, edit and review blog posts, newslett
 
 ## What's in it
 
-One set, `cw`, for anyone who writes blog posts, newsletters, social posts or guest posts, on any subject. It takes a piece from the idea to how it performs: planning, research, interviews, drafting, images, editing, review, getting found, cross-posting, refreshing and pitching. It also holds the rules under every piece: plain language, sourced claims, code samples that run, and a check for machine-written prose.
+These skills are for anyone who writes blog posts, newsletters, social posts or guest posts, on any subject. They take a piece from the idea to how it performs: planning, research, interviews, drafting, images, editing, review, getting found, cross-posting, refreshing and pitching. They also hold the rules under every piece: plain language, sourced claims, code samples that run, and a check for machine-written prose.
 
 For documentation — developer docs, help-centre articles, API references, READMEs, release notes — see [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).
 
@@ -43,7 +43,7 @@ Without Node, copy the folders inside `plugins/cw/skills/` into `.agents/skills/
 
 ## Set up a publication
 
-`cw` writes for a blog or newsletter using what you've recorded about it: who reads it, how it sounds, how it looks. Say "set up my publication" and `style-guide` builds those files with you. Leave anything you haven't decided blank, and a skill asks about it later.
+The skills write for a blog or newsletter using what you've recorded about it: who reads it, how it sounds, how it looks. Say "set up my publication" and `style-guide` builds those files with you. Leave anything you haven't decided blank, and a skill asks about it later.
 
 ```text
 publications/
