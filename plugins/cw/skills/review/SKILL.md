@@ -3,8 +3,6 @@ name: review
 description: >-
   Manually invoked. Editorial review of one piece of content — a blog post, article, tutorial, essay, feature or newsletter issue — down the five levels of edit, against the publication's writing guide and profile: the right piece, facts, quotes, code, credit, fairness and disclosure, the line in the author's voice, consistency, and the preview. Returns numbered findings with proposed replacements, questions for the author, and what was verified. Use on "review my article", "is this post ready to publish".
 argument-hint: '[path] [--fix]'
-model: opus
-effort: high
 disallowed-tools: Edit, NotebookEdit
 disable-model-invocation: true
 ---
