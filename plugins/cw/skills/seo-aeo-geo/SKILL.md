@@ -181,4 +181,4 @@ When the piece is republished on another site — Medium, Substack, dev.to, a pa
 - **The piece itself** → `cw:article-standards`; **a newsletter issue** → `cw:newsletter-standards`.
 - **Images** → `cw:images-and-diagrams`. **The cover image and share card** → `cw:cover-images`. **Updating an old piece** → `cw:content-refresh`. **Republishing elsewhere** → `cw:cross-posting`.
 - **How it's performing after publishing** → `/cw:content-performance`.
-- **Documentation pages** → `tw:docs-seo-aeo-geo`.
+- **Documentation pages** → `tw:docs-seo-aeo-geo` in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).

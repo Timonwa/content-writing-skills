@@ -104,7 +104,7 @@ Read the answers from the publication's existing files, its `sources/`, its publ
 
 - **Quotes** — how omissions are marked, whether brackets and "[sic]" are used, whether speech is cleaned up, how sources are attributed.
 - **Titles of works** — books, films, albums, other publications — in italics or quotation marks.
-- **Code**, if it publishes any — its conventions, deferring to `write:code-samples`.
+- **Code**, if it publishes any — its conventions, deferring to `cw:code-samples`.
 
 ## The policies a publication records
 
@@ -189,8 +189,8 @@ Start from the blanks in [references/publication-template/](references/publicati
 
 ## Boundaries
 
-- **The rules every piece obeys by default** → `write:writing-standards`. A guide records only where it departs from them, or what they don't cover.
+- **The rules every piece obeys by default** → `cw:writing-standards`. A guide records only where it departs from them, or what they don't cover.
 - **Applying the guide to a draft** → `cw:editing-standards`; **bringing an old piece up to the current guide** → `cw:content-refresh`.
 - **The pieces that consume it** → `cw:article-standards`, `cw:newsletter-standards`.
-- **A docs set's style guide** → `tw:docs-style-guide`.
+- **A docs set's style guide** → `tw:docs-style-guide` in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).
 - **The publication's own facts** — its name, readers, sign-off — are asked for and recorded, never invented here.

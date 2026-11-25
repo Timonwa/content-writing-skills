@@ -33,7 +33,7 @@
     {
       "id": 3,
       "prompt": "Review tutorials/deploy-a-static-site.md. It's a build-along tutorial; I wrote the commands from memory last night.",
-      "expected_output": "Should run every command and sample from a clean start, in order, copying from the rendered piece, following write:code-samples' Code in a tutorial, and record what was run in the report's Verified section. A step that fails when followed is a BLOCKER (an example that doesn't work). Should also check the companion repo matches if one is linked. Should not claim the code works without having run it, and should say plainly which commands could not be run and why.",
+      "expected_output": "Should run every command and sample from a clean start, in order, copying from the rendered piece, following cw:code-samples' Code in a tutorial, and record what was run in the report's Verified section. A step that fails when followed is a BLOCKER (an example that doesn't work). Should also check the companion repo matches if one is linked. Should not claim the code works without having run it, and should say plainly which commands could not be run and why.",
       "files": [],
       "expectations": [
         "Runs each command in order from a clean start",

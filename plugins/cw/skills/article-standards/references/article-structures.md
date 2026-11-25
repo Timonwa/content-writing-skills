@@ -56,7 +56,7 @@ A case study, a retrospective, an essay, a teardown. The value is entirely in wh
 
 ## Where code appears
 
-For publications that publish code. The profile owns comment style, placeholders and how much goes in a block; `write:code-samples` owns correctness and safety. These hold regardless:
+For publications that publish code. The profile owns comment style, placeholders and how much goes in a block; `cw:code-samples` owns correctness and safety. These hold regardless:
 
 - Every fence names its language, the same way throughout.
 - Show code incrementally when it has distinct pieces to explain.

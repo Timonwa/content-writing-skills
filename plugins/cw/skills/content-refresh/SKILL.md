@@ -79,7 +79,7 @@ Work through the piece as a reader arriving today:
 - **What ranks for its question now** — search the query and read the top results. A shift in what readers want (a comparison where a how-to used to win), subtopics the piece misses, and the follow-up questions Google shows beside the results are the usual reasons a sound piece slipped (common practice).
 
 - **Facts and figures** — every number, price, date, statistic and "currently", against its original source. A figure whose source has updated gets the new figure and the new source.
-- **Versions and steps** — every version named, and every step of a tutorial run again on the current versions (`write:code-samples`, Code in a tutorial).
+- **Versions and steps** — every version named, and every step of a tutorial run again on the current versions (`cw:code-samples`, Code in a tutorial).
 - **The demo repo**, where the piece has one — it builds, runs and matches the piece; its README still describes it (`cw:demo-project`).
 - **Screenshots and images** — retaken where the interface changed; alt text updated to match (`cw:images-and-diagrams`).
 - **Links** — every external link resolves to what it claims; a moved source is relinked, a dead one replaced or removed with the claim it supported rechecked.
@@ -147,6 +147,6 @@ Work through the piece as a reader arriving today:
 
 - **Finding which pieces need attention** → `/cw:content-performance`.
 - **Rewriting the piece's structure or framing** → `cw:article-standards`; **the line-level edit** → `cw:editing-standards`; **a full review before republishing** → `/cw:review`.
-- **Tutorial code and the demo repo** → `write:code-samples`, `cw:demo-project`.
+- **Tutorial code and the demo repo** → `cw:code-samples`, `cw:demo-project`.
 - **Cross-posting to a platform the topic isn't on yet** → `cw:cross-posting`; keeping the existing copies in step is this skill's job.
 - **Setting up redirects, status codes and structured dates** — the site's hosting or CMS; this skill says which ones a piece needs.

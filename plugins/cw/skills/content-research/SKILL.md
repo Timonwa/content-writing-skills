@@ -81,7 +81,7 @@ The CRAAP checklist — currency, relevance, authority, accuracy, purpose — fr
 ## Figures and statistics
 
 - **Trace every number to its table.** Check the figure, its unit, its date, the population it describes and the exact wording of what was measured. A number that has travelled through three articles is often a different number by the end.
-- **Certainty matches the evidence** (`write:writing-standards`). One observational study "suggests" or "is linked to"; only strong, repeated evidence "shows". Press releases overstate causal claims often enough to check every one against the study itself ([Sumner et al., BMJ 2014](https://www.bmj.com/content/349/bmj.g7015)).
+- **Certainty matches the evidence** (`cw:writing-standards`). One observational study "suggests" or "is linked to"; only strong, repeated evidence "shows". Press releases overstate causal claims often enough to check every one against the study itself ([Sumner et al., BMJ 2014](https://www.bmj.com/content/349/bmj.g7015)).
 - **The usual traps**, each worth a second look before it goes in:
   - correlation presented as cause;
   - a relative change with no baseline ("doubles the risk" — from 1 in a million to 2);
@@ -148,6 +148,6 @@ Charts, photos, screenshots and datasets carry rights and credits of their own �
 ## Boundaries
 
 - **Interviewing a person** → `cw:interviews`.
-- **Shaping the piece from the research** → `cw:article-standards`; **certainty and claims in the prose** → `write:writing-standards`.
+- **Shaping the piece from the research** → `cw:article-standards`; **certainty and claims in the prose** → `cw:writing-standards`.
 - **Checking a finished draft's facts** as part of a review → `/cw:review`.
-- **Finding facts inside a codebase** for documentation → `tw:codebase-research`.
+- **Finding facts inside a codebase** for documentation → `tw:codebase-research` in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).

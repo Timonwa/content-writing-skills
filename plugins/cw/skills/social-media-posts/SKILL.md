@@ -156,4 +156,4 @@ Write the set to the topic's `social.md`, then summarise it in chat. Never post,
 - **A periodic issue covering several pieces** → `cw:newsletter-standards`.
 - **The image a shared link shows** → `cw:cover-images`.
 - **Whether any of it worked** → `/cw:content-performance`. **A copy of the piece on another blogging platform** → `cw:cross-posting`.
-- **Tightening prose that already exists** → `cw:editing-standards`. **The machine-written sweep** → `/write:ai-check`.
+- **Tightening prose that already exists** → `cw:editing-standards`. **The machine-written sweep** → `/cw:ai-check`.

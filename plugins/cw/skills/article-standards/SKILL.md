@@ -163,9 +163,9 @@ Eye-tracking research finds people scan web pages rather than read them, and on 
 ## Boundaries
 
 - **Audience, purpose and disclosures** → the publication's `profile.md`. **Voice, titles, section names and formatting** → its `writing-guide.md`. Both live in the publication's folder; the topic's `brief.md`, `blog.md` and `sources.md` live in its folder under `topics/`.
-- **Technical documentation** — docs sites, API references, product help — is a different job with a different reader → `tw:developer-docs`, `tw:api-reference`, `tw:user-guides`.
-- **The voice rules under any piece of writing** → `write:writing-standards`. **Tightening a finished draft** → `cw:editing-standards`. **The machine-written sweep** → `/write:ai-check`.
-- **Code samples that must run** → `write:code-samples`. **Diagrams and screenshots** → `cw:images-and-diagrams`. **The cover image** → `cw:cover-images`.
+- **Technical documentation** — docs sites, API references, product help — is a different job with a different reader → `tw:developer-docs`, `tw:api-reference` or `tw:user-guides` in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).
+- **The voice rules under any piece of writing** → `cw:writing-standards`. **Tightening a finished draft** → `cw:editing-standards`. **The machine-written sweep** → `/cw:ai-check`.
+- **Code samples that must run** → `cw:code-samples`. **Diagrams and screenshots** → `cw:images-and-diagrams`. **The cover image** → `cw:cover-images`.
 - **Finding and checking the sources behind it** → `cw:content-research`. **A tutorial's companion repository** → `cw:demo-project`.
 - **Updating, correcting, merging or retiring a piece after it's published** → `cw:content-refresh`.
 - **The emails for writing for another publication, a swap, a co-written or guest piece, or a sponsor** — the pitch, the replies and the confirmation of what was agreed → `cw:pitching`.

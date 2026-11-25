@@ -66,7 +66,7 @@ Work down the levels in order. A level is only worth running once the one above 
 - **Facts, figures, names and dates** checked against the original source — the study, not the press release; the report, not the post that summarized it.
 - **Certainty matches the evidence.** A single or observational study "suggests" or "is linked to"; "proves" and "causes" need evidence that supports them. Overstated causation from correlational evidence is a documented failure of science and health writing, and it usually starts in the press release ([Sumner et al., BMJ 2014](https://www.bmj.com/content/349/bmj.g7015)).
 - **Quotes** checked against the recording or notes: words exact, context not distorted, remarks from different moments never stitched into one. Any trimming is marked as the guide says.
-- **Code in a tutorial runs**, where the piece has code. Run every command and every sample, in order, from a clean start, copying from the draft rather than your own files — the rules are `write:code-samples`' "Code in a tutorial". An example that doesn't work is the error a reader of a tutorial can't forgive.
+- **Code in a tutorial runs**, where the piece has code. Run every command and every sample, in order, from a clean start, copying from the draft rather than your own files — the rules are `cw:code-samples`' "Code in a tutorial". An example that doesn't work is the error a reader of a tutorial can't forgive.
 - **Attribution and originality.** Borrowed words, ideas, data and images are credited and linked; nothing is close-paraphrased. A draft written with AI assistance is checked for lifted passages.
 - **Rights.** Every quoted excerpt, image, chart, lyric or embedded post is used within its licence, fair use or fair dealing, or with permission.
 - **Fairness.** No unverified allegation about a named person or company; anyone criticised has had a chance to respond.
@@ -108,7 +108,7 @@ Work down the levels in order. A level is only worth running once the one above 
 
 For a fast edit, or a short piece that doesn't need all five levels. The plain-language test is [ISO 24495-1:2023](https://www.iso.org/standard/78907.html)'s: can the intended reader **easily find what they need, understand it, and use it** ([IPLF summary](https://www.iplfederation.org/iso-standard/))?
 
-- **Word level** — cut weak intensifiers and filler; swap inflated words for plain ones where they're used in the inflated sense. The swap list is in `write:writing-standards`.
+- **Word level** — cut weak intensifiers and filler; swap inflated words for plain ones where they're used in the inflated sense. The swap list is in `cw:writing-standards`.
 - **Sentence level** — one idea per sentence, long sentences checked, lengths varied, the point where the reader needs it.
 - **Paragraph level** — one topic each, a strong first sentence, white space between.
 - **Piece level** — read only the title, the opening and the subheads: do they tell a scanning reader what the piece is and where to find their part?
@@ -123,10 +123,10 @@ Techniques editors use on every pass (common practice):
 
 ## The AI-tell pass
 
-Run it on anything published under a person's name — a reader who decides a piece was generated stops trusting the author. The full catalogue is the AI writing detection reference in `write:writing-standards`; the short version:
+Run it on anything published under a person's name — a reader who decides a piece was generated stops trusting the author. The full catalogue is the AI writing detection reference in `cw:writing-standards`; the short version:
 
 - **Claims that don't hold** — a citation, quote or study that doesn't exist or doesn't say what the piece claims. Check the sources before the style.
-- **Em-dash density** — the flag is frequency and pattern, not the character: more than about 3 per 1,000 words is a signal, more than about 6 or two in one paragraph is strong. That's a working threshold, the same one `/write:ai-check` scores against, not a published standard; swap for commas, colons, parentheses or a full stop. A guide whose voice uses em-dash asides wins.
+- **Em-dash density** — the flag is frequency and pattern, not the character: more than about 3 per 1,000 words is a signal, more than about 6 or two in one paragraph is strong. That's a working threshold, the same one `/cw:ai-check` scores against, not a published standard; swap for commas, colons, parentheses or a full stop. A guide whose voice uses em-dash asides wins.
 - **Stock vocabulary** — delve, leverage, robust, comprehensive, pivotal, seamless, transformative, "furthermore", "moreover".
 - **Stock phrases** — "In today's fast-paced world…", "It's worth noting that…", "At its core…", "In conclusion…", "Whether you're a X, Y, or Z…". Delete, or rewrite as something the author would say aloud.
 - **Structural patterns** — every section the same length, every list exactly three items, a summary restating what was just said, a closing that congratulates the reader, an opinion piece that never takes a side.
@@ -145,9 +145,9 @@ The problems content edits keep meeting, with fixes, and a worked before-and-aft
 
 ## Boundaries
 
-- **The rules every piece obeys** — sentences, claims, credit and rights, never hard-wrap → `write:writing-standards`.
+- **The rules every piece obeys** — sentences, claims, credit and rights, never hard-wrap → `cw:writing-standards`.
 - **Writing from scratch** is out of scope — draft with `cw:article-standards` or `cw:newsletter-standards`, then edit here.
 - **The conventions being edited to** — which term wins, the date format, the person and tone → `cw:style-guide`. This skill enforces a standard; it doesn't set one.
-- **A full review with numbered findings** → `/cw:review`; **bringing an old piece up to the current guide** → `cw:content-refresh`; **the machine-written sweep as a report** → `/write:ai-check`.
-- **Photos, charts and their credits** → `cw:images-and-diagrams`; **code** → `write:code-samples`.
-- **Documentation** is edited with `tw:docs-editing-standards`.
+- **A full review with numbered findings** → `/cw:review`; **bringing an old piece up to the current guide** → `cw:content-refresh`; **the machine-written sweep as a report** → `/cw:ai-check`.
+- **Photos, charts and their credits** → `cw:images-and-diagrams`; **code** → `cw:code-samples`.
+- **Documentation** is edited with `tw:docs-editing-standards` in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).

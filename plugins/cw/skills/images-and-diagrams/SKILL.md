@@ -136,7 +136,7 @@ A worked example — deciding, fixing, crediting and describing every visual in 
 ## Boundaries
 
 - **Designing a cover image and the cards a link shows when it's shared** → `cw:cover-images`.
-- **Code is never an image** — code in a piece follows `write:code-samples`.
+- **Code is never an image** — code in a piece follows `cw:code-samples`.
 - **Whether the piece needs a visual at all, and where it sits** → `cw:article-standards` and `cw:newsletter-standards`.
-- **Visuals in documentation** → `tw:docs-images-and-diagrams`.
+- **Visuals in documentation** → `tw:docs-images-and-diagrams` in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).
 - **A logo, brand icon or favicon set** is a different job, out of scope.

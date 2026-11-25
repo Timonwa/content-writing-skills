@@ -55,7 +55,7 @@ A demo repo is either the **owner's own** or written **for a third party** (a cl
 
 - **One repository per tutorial**, or one folder per piece in a samples repository when a publication runs many small examples. A reader should clone only what the piece needs.
 - **Decide what the reader clones before writing step one**, and write the steps against it: the starter state, the commands, the file names.
-- **The code in the piece and the code in the repo are the same code.** Every snippet in the piece exists, character for character, at the point in the repo the piece says it does (`write:code-samples`, Code in a tutorial).
+- **The code in the piece and the code in the repo are the same code.** Every snippet in the piece exists, character for character, at the point in the repo the piece says it does (`cw:code-samples`, Code in a tutorial).
 
 ## Branches and tags
 
@@ -88,13 +88,13 @@ Code rots as dependencies and platforms move on. Catch it before readers do:
 
 - **No real key, token or password is ever committed**, including in history. If one was, revoke it at the issuer first, then remove it.
 - **`.env.example` lists every variable** the code reads, with no values, and the README says to copy it to `.env`. `.env` is in `.gitignore`.
-- **Placeholders match the piece**: the same names and the same convention in the article, the README and `.env.example` (`write:code-samples` for the convention).
+- **Placeholders match the piece**: the same names and the same convention in the article, the README and `.env.example` (`cw:code-samples` for the convention).
 - **Free tiers and test modes first**: a reader shouldn't need a paid account or a production key to finish the tutorial; where one is needed, the piece says so before step one.
 
 ## Licence and credit
 
 - **Add a licence file.** Without one, GitHub notes that default copyright applies and "no one may reproduce, distribute, or create derivative works from your work" — so readers can't legally reuse the demo's code ([GitHub](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)). A permissive licence such as MIT suits code meant to be copied; [choosealicense.com](https://choosealicense.com) compares them. The publication's or client's policy wins where it has one.
-- **Borrowed code keeps its licence and its credit** — a comment at the code, and a line in the README (`write:code-samples`, Borrowed code). Assets — images, fonts, data — carry their own licences and credits too.
+- **Borrowed code keeps its licence and its credit** — a comment at the code, and a line in the README (`cw:code-samples`, Borrowed code). Assets — images, fonts, data — carry their own licences and credits too.
 
 ## In step with the piece
 
@@ -120,7 +120,7 @@ Each branch gets a README that links the piece in its first screenful, says whic
 
 ## Boundaries
 
-- **Code shown in the piece** — complete, runnable, elided correctly → `write:code-samples`.
+- **Code shown in the piece** — complete, runnable, elided correctly → `cw:code-samples`.
 - **Writing the tutorial itself** → `cw:article-standards`. **Tightening it** → `cw:editing-standards`.
-- **A README for a project that isn't a tutorial's companion** — a library, an app, a CLI → `tw:readmes`.
+- **A README for a project that isn't a tutorial's companion** — a library, an app, a CLI → `tw:readmes` in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).
 - **The author's name, links and audience** → the publication's `profile.md`; never put a third party's details into the owner's profile.

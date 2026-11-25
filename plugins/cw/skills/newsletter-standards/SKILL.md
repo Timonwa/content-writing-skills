@@ -143,6 +143,6 @@ Benchmarks describe patterns, not targets. A publication's own trend line beats 
 - **The long-form pieces an issue links to** → `cw:article-standards`. An issue summarises them; it never reproduces one.
 - **Promoting a single piece** → `cw:social-media-posts`. A set of posts about one article is a different job from a periodic issue covering several.
 - **The emails with a sponsor** — the pitch, the replies and the confirmation of what was agreed → `cw:pitching`.
-- **The voice rules under every publication** → `write:writing-standards`. **Tightening the draft** → `cw:editing-standards`. **The machine-written sweep** → `/write:ai-check`.
+- **The voice rules under every publication** → `cw:writing-standards`. **Tightening the draft** → `cw:editing-standards`. **The machine-written sweep** → `/cw:ai-check`.
 - **Whether the linked pieces are being found** → `/cw:content-performance`. **Reviewing an issue before it sends, as a report** → `/cw:review`.
 - **List management and deliverability** — consent records, list cleaning, sender authentication, complaint rates, automation → the sending platform. Name what's missing; don't configure it.

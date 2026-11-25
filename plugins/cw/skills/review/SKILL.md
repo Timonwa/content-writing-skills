@@ -30,7 +30,7 @@ Voice, person, tone, terminology, formatting choices and who the reader is come 
 
 When a guide changes: in a codebase, save the file where it was found; in a chat app, give the user the updated file to replace in the project. Never write inside the installed plugin.
 
-The editing craft is `cw:editing-standards`; the universal writing rules are `write:writing-standards`; the piece's shape comes from `cw:article-standards` or `cw:newsletter-standards`.
+The editing craft is `cw:editing-standards`; the universal writing rules are `cw:writing-standards`; the piece's shape comes from `cw:article-standards` or `cw:newsletter-standards`.
 
 ## Ask first
 
@@ -86,7 +86,7 @@ A topic lives in `topics/<yyyy-mm>-<slug>/` in the publication's folder; the for
 - **Every fact, figure, date, name and title** checked against its original source, not a summary of it. Verify before publishing and use original sources wherever possible ([SPJ Code of Ethics](https://www.spj.org/spj-code-of-ethics/)).
 - **Every quote** checked against the recording or notes, and attributed to who said it and in what capacity.
 - **Certainty matches the evidence.** A single or observational study "suggests"; a press release's claim is checked against the study, because press releases often overstate what a study found.
-- **Code in a tutorial runs.** Run every command and sample from a clean start, in order, copying from the piece — the rules are `write:code-samples`' "Code in a tutorial". Record what you ran in **Verified**.
+- **Code in a tutorial runs.** Run every command and sample from a clean start, in order, copying from the piece — the rules are `cw:code-samples`' "Code in a tutorial". Record what you ran in **Verified**.
 - **Every link goes where its text says**, to the original rather than an aggregator.
 - **Borrowed words, ideas and data are credited**, nothing is closely paraphrased, and an AI-assisted draft is checked for lifted passages.
 - **The claims that don't look checkable too** — timeframes, prices, "always", "the first". Flag what you couldn't verify rather than smoothing it over.
@@ -178,7 +178,7 @@ Everything else is unchanged: list the findings, ask which, fix only those, upda
 
 ## Boundaries
 
-- **Bringing an old piece up to the current guide** → `cw:content-refresh`. **Does it sound machine-written** → `/write:ai-check`, run on request.
+- **Bringing an old piece up to the current guide** → `cw:content-refresh`. **Does it sound machine-written** → `/cw:ai-check`, run on request.
 - **Writing from scratch** — this reviews what exists. A finding that the piece should be several pieces is raised, not acted on.
-- **Documentation** is reviewed with `/tw:doc-review`.
+- **Documentation** is reviewed with `/tw:docs-review` in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).
 - **The author owns the piece** and usually knows something about the subject you don't. Findings are proposals, and a rejected finding is not re-argued.

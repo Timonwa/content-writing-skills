@@ -172,8 +172,8 @@ Each output has its own shape and its own sign-off, recorded in the notes file's
 
 ## Boundaries
 
-- **Writing an article, a feature or a profile from the notes** → `cw:article-standards`; the rules every piece obeys → `write:writing-standards`.
+- **Writing an article, a feature or a profile from the notes** → `cw:article-standards`; the rules every piece obeys → `cw:writing-standards`.
 - **Deciding who to interview for which piece** → `cw:content-planning`. **Written sources, figures and fact-checking** → `cw:content-research`.
 - **Editing the draft** → `cw:editing-standards`; **reviewing it** → `/cw:review`.
-- **Interviewing an engineer or expert for documentation** → `tw:sme-interviews`.
+- **Interviewing an engineer or expert for documentation** → `tw:sme-interviews` in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).
 - **The person is the authority on facts, not on wording** — except in a testimonial, where the words are theirs. How the rest is phrased for the reader is the writer's call.
