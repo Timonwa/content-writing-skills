@@ -33,6 +33,8 @@ For documentation — developer docs, help-centre articles, API references, READ
 
 ## Install
 
+### Any IDE or AI agent
+
 ```shell
 npx skills add Timonwa/content-writing-skills
 ```
@@ -40,6 +42,17 @@ npx skills add Timonwa/content-writing-skills
 [`npx skills`](https://github.com/vercel-labs/skills) asks which skills to install and which agents to install them for, and installs them in the current project. Add `-g` to install them for every project. To get the latest changes, run `npx skills update`.
 
 Without Node, copy the folders inside `plugins/cw/skills/` into `.agents/skills/` in your project, or `~/.agents/skills/` for every project. Many agents read that folder. For the rest, use the skills folder your agent's docs name.
+
+### Claude app (web or desktop)
+
+Install the plugin once, then work in a Project for each publication (see [Set up a publication](#set-up-a-publication)).
+
+1. Open **Customize > Plugins**.
+2. Select **Add > Add marketplace > Add from a repository**, and enter `Timonwa/content-writing-skills`.
+3. Add **cw**.
+4. Turn on **Settings > Capabilities > Create and edit files**. Skills don't run without it. On Team and Enterprise plans, an admin turns it on.
+
+Plugins are saved to your account, so they work in chat on mobile too. To get the latest changes, select **Check for updates** in **Customize > Plugins**, or turn on **Sync automatically** for the marketplace.
 
 ## Set up a publication
 
