@@ -103,7 +103,7 @@ Balance what the plan asks of readers and of the writer:
 ## Calendar and cadence
 
 - **Pick a cadence the writer can keep through a bad month** — weekly, fortnightly, monthly. Consistency builds a readership; a burst and a silence loses it (practice).
-- **Work back from each publish date** — research, interview, draft, a demo project where the piece has one (`demo-project`), images (`cover-images`), edit (`editing-standards`), review (`/review`), findability (`seo-aeo-geo`).
+- **Work back from each publish date** — research, interview, draft, a demo project where the piece has one (`demo-project`), images (`cover-images`), edit (`editing-standards`), review (`/content-review`), findability (`seo-aeo-geo`).
 - **Keep a buffer** of one or two finished pieces, so a missed week doesn't break the run.
 - **Plan the distribution with the topic** — its brief lists what it becomes: the newsletter issue that carries it (`newsletter-standards`), the posts that share it (`social-media-posts`), the copies on other platforms (`cross-posting`), each with its own date.
 - **Date the seasonal and the timely** — launches, events, the start of a tax year — far enough ahead to write them well.
