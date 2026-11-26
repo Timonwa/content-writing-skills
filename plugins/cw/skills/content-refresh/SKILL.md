@@ -146,7 +146,7 @@ Work through the piece as a reader arriving today:
 ## Boundaries
 
 - **Finding which pieces need attention** → `/content-performance`.
-- **Rewriting the piece's structure or framing** → `article-standards`; **the line-level edit** → `editing-standards`; **a full review before republishing** → `/review`.
+- **Rewriting the piece's structure or framing** → `article-standards`; **the line-level edit** → `editing-standards`; **a full review before republishing** → `/content-review`.
 - **Tutorial code and the demo repo** → `code-samples`, `demo-project`.
 - **Cross-posting to a platform the topic isn't on yet** → `cross-posting`; keeping the existing copies in step is this skill's job.
 - **Setting up redirects, status codes and structured dates** — the site's hosting or CMS; this skill says which ones a piece needs.

@@ -148,6 +148,6 @@ The problems content edits keep meeting, with fixes, and a worked before-and-aft
 - **The rules every piece obeys** — sentences, claims, credit and rights, never hard-wrap → `writing-standards`.
 - **Writing from scratch** is out of scope — draft with `article-standards` or `newsletter-standards`, then edit here.
 - **The conventions being edited to** — which term wins, the date format, the person and tone → `style-guide`. This skill enforces a standard; it doesn't set one.
-- **A full review with numbered findings** → `/review`; **bringing an old piece up to the current guide** → `content-refresh`; **the machine-written sweep as a report** → `/ai-check`.
+- **A full review with numbered findings** → `/content-review`; **bringing an old piece up to the current guide** → `content-refresh`; **the machine-written sweep as a report** → `/ai-check`.
 - **Photos, charts and their credits** → `images-and-diagrams`; **code** → `code-samples`.
 - **Documentation** is edited with `docs-editing-standards` in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).

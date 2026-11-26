@@ -149,5 +149,5 @@ Charts, photos, screenshots and datasets carry rights and credits of their own �
 
 - **Interviewing a person** → `interviews`.
 - **Shaping the piece from the research** → `article-standards`; **certainty and claims in the prose** → `writing-standards`.
-- **Checking a finished draft's facts** as part of a review → `/review`.
+- **Checking a finished draft's facts** as part of a review → `/content-review`.
 - **Finding facts inside a codebase** for documentation → `codebase-research` in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).

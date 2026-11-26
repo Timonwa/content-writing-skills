@@ -144,5 +144,5 @@ Benchmarks describe patterns, not targets. A publication's own trend line beats 
 - **Promoting a single piece** → `social-media-posts`. A set of posts about one article is a different job from a periodic issue covering several.
 - **The emails with a sponsor** — the pitch, the replies and the confirmation of what was agreed → `pitching`.
 - **The voice rules under every publication** → `writing-standards`. **Tightening the draft** → `editing-standards`. **The machine-written sweep** → `/ai-check`.
-- **Whether the linked pieces are being found** → `/content-performance`. **Reviewing an issue before it sends, as a report** → `/review`.
+- **Whether the linked pieces are being found** → `/content-performance`. **Reviewing an issue before it sends, as a report** → `/content-review`.
 - **List management and deliverability** — consent records, list cleaning, sender authentication, complaint rates, automation → the sending platform. Name what's missing; don't configure it.

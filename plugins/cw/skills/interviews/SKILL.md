@@ -174,6 +174,6 @@ Each output has its own shape and its own sign-off, recorded in the notes file's
 
 - **Writing an article, a feature or a profile from the notes** → `article-standards`; the rules every piece obeys → `writing-standards`.
 - **Deciding who to interview for which piece** → `content-planning`. **Written sources, figures and fact-checking** → `content-research`.
-- **Editing the draft** → `editing-standards`; **reviewing it** → `/review`.
+- **Editing the draft** → `editing-standards`; **reviewing it** → `/content-review`.
 - **Interviewing an engineer or expert for documentation** → `sme-interviews` in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).
 - **The person is the authority on facts, not on wording** — except in a testimonial, where the words are theirs. How the rest is phrased for the reader is the writer's call.

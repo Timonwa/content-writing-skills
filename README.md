@@ -123,7 +123,7 @@ publications/
 
 | Command               | Use it to                                                                        |
 | --------------------- | -------------------------------------------------------------------------------- |
-| `review`              | Check a post or newsletter issue is ready to publish                             |
+| `content-review`      | Check a post or newsletter issue is ready to publish                             |
 | `ai-check`            | Find what makes a piece sound machine-written, with a suggested rewrite for each |
 | `content-performance` | See which posts to fix first, from your analytics export                         |
 
