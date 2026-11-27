@@ -40,6 +40,7 @@ A topic lives in `topics/<yyyy-mm>-<slug>/` in the publication's folder; its for
 - **A check only reads.** It runs even while someone holds the topic, never sets **Held by** or a status, and writes only its own `reports/seo.md`, by [references/output-format.md](references/output-format.md).
 - **A fix edits the format file**, so it claims: read `brief.md`; if **Held by** names someone else and the status isn't `paused`, leave it and say so. Otherwise set **Held by** and the date, change only the findings chosen, and clear **Held by** when you stop.
 - **The title and description are fields in `blog.md`'s front matter** ([template](../style-guide/references/publication-template/topics/_template/blog.md)), one of each. A newsletter's web version has no such fields; its findings go in the report.
+- **`tags` are the blog's own tags or categories**, the ones the publication files posts under. They aren't search keywords: the reader's search query lives in the brief, and a check reports tags only against the categories the blog actually uses.
 
 ## Write for the reader first
 

@@ -10,6 +10,8 @@ Improve a piece that already exists — an article, a blog post, a tutorial writ
 
 In content the voice is part of what the reader came for. A first-person story, an opinion held throughout, a joke, a fragment used for rhythm, a sign-off the publication always uses — those belong to the author and are never defects.
 
+**This skill edits; it never writes a report.** A review is `/content-review`, an AI check is `/ai-check`, and an SEO check is `seo-aeo-geo`, each written to `reports/` from its own template. When a report is wanted, run that command or skill rather than writing the file from here.
+
 ## Voice and audience come from the writing's own guide
 
 Before editing, find the publication's `profile.md` and `writing-guide.md` and read them:

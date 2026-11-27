@@ -5,7 +5,7 @@ slug: ""
 author: "" # your name by default; a guest's name when someone else writes it
 author_bio: ""
 author_url: ""
-tags: []
+tags: [] # the tags or categories the publication's own blog files posts under; not search keywords, which live in the brief's Search query
 cover_image: "" # a file in images/ or a hosted URL
 cover_alt: ""
 series: ""
