@@ -162,6 +162,7 @@ Eye-tracking research finds people scan web pages rather than read them, and on 
 
 ## Boundaries
 
+- **Reports belong to their commands:** a review of a finished piece is `/content-review` and a check for machine-written patterns is `/ai-check`. This skill never writes a report or runs a check itself. Run the command, which writes its report from its own template.
 - **Audience, purpose and disclosures** → the publication's `profile.md`. **Voice, titles, section names and formatting** → its `writing-guide.md`. Both live in the publication's folder; the topic's `brief.md`, `blog.md` and `sources.md` live in its folder under `topics/`.
 - **Technical documentation** — docs sites, API references, product help — is a different job with a different reader → `developer-docs`, `api-reference` or `user-guides` in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).
 - **The voice rules under any piece of writing** → `writing-standards`. **Tightening a finished draft** → `editing-standards`. **The machine-written sweep** → `/ai-check`.

@@ -135,6 +135,7 @@ A worked example — deciding, fixing, crediting and describing every visual in 
 
 ## Boundaries
 
+- **Reports belong to their commands:** a review of a finished piece is `/content-review`. This skill never writes a report or runs a check itself. Run the command, which writes its report from its own template.
 - **Designing a cover image and the cards a link shows when it's shared** → `cover-images`.
 - **Code is never an image** — code in a piece follows `code-samples`.
 - **Whether the piece needs a visual at all, and where it sits** → `article-standards` and `newsletter-standards`.

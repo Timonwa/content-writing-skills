@@ -145,6 +145,7 @@ Work through the piece as a reader arriving today:
 
 ## Boundaries
 
+- **Reports belong to their commands:** a report on how published pieces performed is `/content-performance` and a review of a finished piece is `/content-review`. This skill never writes a report or runs a check itself. Run the command, which writes its report from its own template.
 - **Finding which pieces need attention** → `/content-performance`.
 - **Rewriting the piece's structure or framing** → `article-standards`; **the line-level edit** → `editing-standards`; **a full review before republishing** → `/content-review`.
 - **Tutorial code and the demo repo** → `code-samples`, `demo-project`.

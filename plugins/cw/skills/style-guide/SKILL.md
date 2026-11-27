@@ -189,6 +189,7 @@ Start from the blanks in [references/publication-template/](references/publicati
 
 ## Boundaries
 
+- **Reports belong to their commands:** a review of a finished piece is `/content-review` and a check for machine-written patterns is `/ai-check`. This skill never writes a report or runs a check itself. Run the command, which writes its report from its own template.
 - **The rules every piece obeys by default** → `writing-standards`. A guide records only where it departs from them, or what they don't cover.
 - **Applying the guide to a draft** → `editing-standards`; **bringing an old piece up to the current guide** → `content-refresh`.
 - **The pieces that consume it** → `article-standards`, `newsletter-standards`.

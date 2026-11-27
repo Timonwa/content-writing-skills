@@ -167,6 +167,7 @@ In a chat app, a project's files can't hold folders: name a topic's files `<topi
 
 ## Boundaries
 
+- **Reports belong to their commands:** a report on how published pieces performed is `/content-performance`. This skill never writes a report or runs a check itself. Run the command, which writes its report from its own template.
 - **Writing the piece** → `article-standards`; the newsletter issue → `newsletter-standards`.
 - **Researching a piece's facts** → `content-research`.
 - **Interviewing anyone for a piece** → `interviews`.

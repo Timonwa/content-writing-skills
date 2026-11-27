@@ -137,6 +137,7 @@ Each is a yes or no:
 
 ## Boundaries
 
+- **Reports belong to their commands:** a review of a finished piece is `/content-review`. This skill never writes a report or runs a check itself. Run the command, which writes its report from its own template.
 - **The rules every piece obeys** — sentences, claims, concrete over vague, formatting, never hard-wrap → `writing-standards` and its house-voice checklist.
 - **Where the sample sits in the piece** — the piece's structure → `article-standards`.
 - **The companion repository itself** — its starter and final branches, pinned versions and README → `demo-project`.

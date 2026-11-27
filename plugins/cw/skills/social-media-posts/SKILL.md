@@ -151,6 +151,7 @@ Write the set to the topic's `social.md`, then summarise it in chat. Never post,
 
 ## Boundaries
 
+- **Reports belong to their commands:** a report on how published pieces performed is `/content-performance`. This skill never writes a report or runs a check itself. Run the command, which writes its report from its own template.
 - **The piece being promoted** → `article-standards`. This writes the posts, not the post.
 - **Voice and audience** → the publication's `writing-guide.md` and `profile.md`.
 - **A periodic issue covering several pieces** → `newsletter-standards`.

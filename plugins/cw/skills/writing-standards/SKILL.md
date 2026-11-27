@@ -86,6 +86,7 @@ Read the answers from the request, the guide, the publication's `profile.md` and
 
 ## Boundaries
 
+- **Reports belong to their commands:** a check for machine-written patterns is `/ai-check` and a review of a finished piece is `/content-review`. This skill never writes a report or runs a check itself. Run the command, which writes its report from its own template.
 - **Documentation** — the four documentation types, the documentation voice, procedures, accessible docs pages → `docs-standards` in [technical-writing-skills](https://github.com/Timonwa/technical-writing-skills).
 - **The guide this skill defers to** — a publication's writing guide → `style-guide`.
 - **Getting facts out of an expert or a source** → `interviews`.

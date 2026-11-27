@@ -139,6 +139,7 @@ Benchmarks describe patterns, not targets. A publication's own trend line beats 
 
 ## Boundaries
 
+- **Reports belong to their commands:** a review of a finished piece is `/content-review` and a check for machine-written patterns is `/ai-check`. This skill never writes a report or runs a check itself. Run the command, which writes its report from its own template.
 - **Audience, cadence, the signup promise and sender details** → the publication's `profile.md`. **Voice, subject format, sign-off and the wording of the ask** → its `writing-guide.md`. Both live in the publication's folder.
 - **The long-form pieces an issue links to** → `article-standards`. An issue summarises them; it never reproduces one.
 - **Promoting a single piece** → `social-media-posts`. A set of posts about one article is a different job from a periodic issue covering several.
