@@ -114,6 +114,7 @@ _Delete this section if the publication doesn't publish code._
 | Placeholders       | _how a value the reader replaces is marked, e.g. `PROJECT_ID`_                                  |
 | How much per block | _whole files · incremental_                                                                     |
 | File path          | _whether each block's first line is a comment with its file's path, e.g. `// src/app/page.tsx`_ |
+| Block length       | _the most lines in one block, e.g. 25–30, keeping a function whole_                             |
 
 ## Closing and asks
 
