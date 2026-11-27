@@ -26,7 +26,7 @@ For documentation — developer docs, help-centre articles, API references, READ
 
 ## How the skills work
 
-- Your agent picks a skill when your request matches it, so you don't have to name it. Commands run only when you call them.
+- Your agent picks a skill when your request matches it, so you don't have to name it. Commands are the checks and reports you run by name. Your agent can also run one when a task needs it.
 - A skill reads your publication's guide first, then asks only what's still missing.
 - Every file it writes — a brief, a post, a report — follows a fixed template, so each run looks the same.
 - It never invents a fact, figure or quote. A gap stays marked until you fill it.

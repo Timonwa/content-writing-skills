@@ -1,17 +1,16 @@
 ---
 name: content-review
 description: >-
-  Manually invoked. Editorial review of one piece of content — a blog post, article, tutorial, essay, feature or newsletter issue — down the five levels of edit, against the publication's writing guide and profile: the right piece, facts, quotes, code, credit, fairness and disclosure, the line in the author's voice, consistency, and the preview. Returns numbered findings with proposed replacements, questions for the author, and what was verified. Use on "review my article", "is this post ready to publish".
+  A command. Editorial review of one piece of content — a blog post, article, tutorial, essay, feature or newsletter issue — down the five levels of edit, against the publication's writing guide and profile: the right piece, facts, quotes, code, credit, fairness and disclosure, the line in the author's voice, consistency, and the preview. Returns numbered findings with proposed replacements, questions for the author, and what was verified. Use on "review my article", "is this post ready to publish".
 argument-hint: '[path] [--fix]'
 disallowed-tools: Edit, NotebookEdit
-disable-model-invocation: true
 ---
 
 # Review
 
-**Run this only when the user asks for it by name. It reports first, and edits nothing until the user picks findings to fix (`--fix`).**
+**The user usually runs this by name, and an agent can run it too when the work needs this check. It reports first, and edits nothing until the user picks findings to fix (`--fix`).**
 
-A **manually-invoked editorial review** of one piece of content — an article, a blog post, a tutorial, an essay, a feature, a newsletter issue. It goes deep on one thing: is this piece doing its job for the publication's reader, is it true and fair, and can a reader follow it?
+An **editorial review** of one piece of content — an article, a blog post, a tutorial, an essay, a feature, a newsletter issue. It goes deep on one thing: is this piece doing its job for the publication's reader, is it true and fair, and can a reader follow it?
 
 ## Voice and audience come from the writing's own guide
 

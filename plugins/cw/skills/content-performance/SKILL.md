@@ -1,14 +1,13 @@
 ---
 name: content-performance
 description: >-
-  Manually invoked. Turns an exported analytics file (search, web analytics, AI-answer reports or email) into a ranked list of content fixes — titles to rewrite where impressions are high but clicks are not, pages decaying in rank, queries you rank for with no page, orphaned or thin pages, internal links worth adding, and AI-assistant referrals where the export shows them. Works from whatever columns the export actually has. Reports only; never edits a page.
+  A command. Turns an exported analytics file (search, web analytics, AI-answer reports or email) into a ranked list of content fixes — titles to rewrite where impressions are high but clicks are not, pages decaying in rank, queries you rank for with no page, orphaned or thin pages, internal links worth adding, and AI-assistant referrals where the export shows them. Works from whatever columns the export actually has. Reports only; never edits a page.
 argument-hint: "[path to export(s)] [site URL]"
-disable-model-invocation: true
 ---
 
 # Content performance
 
-**Run this only when the user asks for it by name.**
+**The user usually runs this by name, and an agent can run it too when the work needs this check.**
 
 Turn exported analytics into a ranked list of what to fix. **This reads data and reports; it never edits a page or invents a number.**
 
