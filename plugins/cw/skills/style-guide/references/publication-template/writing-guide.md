@@ -107,12 +107,13 @@ Length is a range per type (a how-to, an essay, an issue), so a piece that runs 
 
 _Delete this section if the publication doesn't publish code._
 
-| Field              | Your answer                                                    |
-| ------------------ | -------------------------------------------------------------- |
-| Languages          |                                                                |
-| Comment style      |                                                                |
-| Placeholders       | _how a value the reader replaces is marked, e.g. `PROJECT_ID`_ |
-| How much per block | _whole files · incremental_                                    |
+| Field              | Your answer                                                                                     |
+| ------------------ | ----------------------------------------------------------------------------------------------- |
+| Languages          |                                                                                                 |
+| Comment style      |                                                                                                 |
+| Placeholders       | _how a value the reader replaces is marked, e.g. `PROJECT_ID`_                                  |
+| How much per block | _whole files · incremental_                                                                     |
+| File path          | _whether each block's first line is a comment with its file's path, e.g. `// src/app/page.tsx`_ |
 
 ## Closing and asks
 
